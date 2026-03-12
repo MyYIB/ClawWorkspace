@@ -11,6 +11,15 @@
 !runs/
 !notes/
 !bin/
+
+# 4. 放行这些文件夹下的所有文件和子目录（关键！）
+!data/**
+!papers/**
+!projects/**
+!runs/**
+!notes/**
+!bin/**
+
 # （可选）如果文件夹内有不想推送的子文件/子文件夹，可单独排除
 # 比如：放行 folder1，但排除 folder1/temp 子文件夹
 # folder1/temp/
