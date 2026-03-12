@@ -1,0 +1,42 @@
+{
+"image_id": "S001",
+"instances": [
+{"id": "ins_01", "class": "mountain_main"},
+{"id": "ins_02", "class": "mountain_secondary"},
+{"id": "ins_03", "class": "trees"},
+{"id": "ins_04", "class": "river"},
+{"id": "ins_05", "class": "clouds"},
+{"id": "ins_06", "class": "building"}
+],
+"global_labels": {
+"dominant_mode": "high",
+"mode_mix": {"high": 0.7, "deep": 0.2, "level": 0.1}
+},
+"pair_relations": [
+{
+"a": "ins_01",
+"b": "ins_03",
+"front_back": "behind",
+"up_down": "higher",
+"left_right": "overlap",
+"occlusion": "a_occludes_b",
+"confidence": 0.8
+},
+{
+"a": "ins_04",
+"b": "ins_01",
+"front_back": "front",
+"up_down": "lower",
+"left_right": "overlap",
+"occlusion": "none",
+"confidence": 0.9
+}
+],
+"triple_relations": [
+{
+"type": "depth_chain",
+"order_near_to_far": ["ins_04", "ins_03", "ins_01"]
+}
+],
+"notes": "主峰突出，前景河道明显，树木连接前后景。"
+}

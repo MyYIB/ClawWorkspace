@@ -1,0 +1,19 @@
+{
+"image_id": "S001",
+"instances_3d": [
+{
+"id": "ins_01",
+"class": "mountain_main",
+"mesh": "meshes/S001_ins_01.glb",
+"transform": {
+"translation": [0.10, 0.72, 0.65],
+"rotation_euler": [0.0, 12.0, 0.0],
+"scale": [1.30, 1.30, 1.30]
+}
+}
+],
+"camera": {
+"type": "orthographic",
+"params": {}
+}
+}
