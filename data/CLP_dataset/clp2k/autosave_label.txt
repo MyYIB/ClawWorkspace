@@ -1,0 +1,162 @@
+1 river			 245 128 6 
+2 mountain 			67 159 36 
+3 trees 			204 43 41 
+4 clouds 			145 104 190 
+5 building 				135 86 75 
+6 animals			 219 120 195 
+7 birds 			127 127 127 
+8 boat 				187 189 18 
+9 person 			72 190 207 
+10 sky 			178 199 233 
+11 bridge 			255 0 0 
+12 waterfall 			248 187 118 
+13 rock 			160 222 135 
+14 grass 		247 153 150 
+
+python run_segmentation.py D:\DataSet\CLP_dataset\clp2k\images\validation\Princeton_56.jpg D:\DataSet\CLP_dataset\clp2k\annotations\validation\Princeton_56.png
+
+RuntimeSegformer
+
+
+using System.Collections.Generic;
+using UnityEngine;
+
+/// <summary>
+/// 运行时分割 sourceImage + maskImage，并生成内存 Sprite + RegionList，然后调用 PieceLoader.LoadPiecesFromData
+/// </summary>
+public class RuntimeSegmenter : MonoBehaviour
+{
+    [Header("输入图片（Texture2D，Inspector 指定）")]
+    public Texture2D sourceImage;  // 原图（Read/Write Enabled, Compression=None, sRGB OFF）
+    public Texture2D maskImage;    // mask（R通道 = 区域ID；Read/Write Enabled, Compression=None, sRGB OFF）
+
+    [Header("PieceLoader 引用（场景中挂的物体）")]
+    public PieceLoader pieceLoader; // 场景中挂有 PieceLoader 的空物体
+
+    [Header("生成设置")]
+    public float pixelsPerUnit = 1f; // 建议 1，保证 1:1 像素显示
+
+    [Header("ID -> 名称映射")]
+    public List<string> regionNames = new List<string> {
+        "river","mountain","trees","clouds","building","animals","birds","boat","person",
+        "sky","bridge","waterfall","rock","grass"
+    };
+
+    [ContextMenu("Segment And Load")]
+    public void SegmentAndLoad()
+    {
+        if (sourceImage == null || maskImage == null || pieceLoader == null)
+        {
+            Debug.LogError("RuntimeSegmenter: 请在 Inspector 中设置 sourceImage / maskImage / pieceLoader");
+            return;
+        }
+
+        if (!sourceImage.isReadable || !maskImage.isReadable)
+        {
+            Debug.LogError("RuntimeSegmenter: sourceImage 或 maskImage 未勾选 Read/Write Enabled");
+            return;
+        }
+
+        int width = maskImage.width;
+        int height = maskImage.height;
+
+        Color32[] srcPixels = sourceImage.GetPixels32();
+        Color32[] maskPixels = maskImage.GetPixels32();
+
+        // 收集每个 ID 的像素索引
+        Dictionary<int, List<int>> regionPixels = new Dictionary<int, List<int>>();
+        for (int i = 0; i < maskPixels.Length; i++)
+        {
+            int id = maskPixels[i].r; // 0-255
+            if (id == 0) continue;
+            if (!regionPixels.ContainsKey(id)) regionPixels[id] = new List<int>();
+            regionPixels[id].Add(i);
+        }
+
+        Debug.Log("RuntimeSegmenter 检测到 ID: " + string.Join(",", regionPixels.Keys));
+
+        // 输出 RegionList
+        RegionList outList = new RegionList();
+        outList.regions = new List<RegionEntry>();
+        Dictionary<string, Sprite> spriteDict = new Dictionary<string, Sprite>();
+
+        List<int> ids = new List<int>(regionPixels.Keys);
+        ids.Sort();
+
+        int regionIndex = 0;
+        foreach (int regionId in ids)
+        {
+            if (!regionPixels.ContainsKey(regionId) || regionPixels[regionId].Count == 0)
+                continue;
+
+            string regionName = (regionId - 1) < regionNames.Count ? regionNames[regionId - 1] : ("id" + regionId);
+
+            // 计算外接矩形
+            int minX = width, minY = height, maxX = 0, maxY = 0;
+            foreach (int idx in regionPixels[regionId])
+            {
+                int x = idx % width;
+                int y = idx / width;
+                if (x < minX) minX = x;
+                if (x > maxX) maxX = x;
+                if (y < minY) minY = y;
+                if (y > maxY) maxY = y;
+            }
+
+            int w = maxX - minX + 1;
+            int h = maxY - minY + 1;
+
+            // 创建 Texture2D（区域透明）
+            Texture2D tex = new Texture2D(w, h, TextureFormat.RGBA32, false);
+            tex.filterMode = FilterMode.Point;
+            tex.wrapMode = TextureWrapMode.Clamp;
+
+            for (int yy = 0; yy < h; yy++)
+            {
+                for (int xx = 0; xx < w; xx++)
+                {
+                    int srcX = minX + xx;
+                    int srcY = minY + yy;
+                    int srcIndex = srcY * width + srcX;
+
+                    Color32 baseColor = srcPixels[srcIndex];
+                    int m = maskPixels[srcIndex].r;
+                    byte alpha = (m == regionId) ? (byte)255 : (byte)0;
+
+                    tex.SetPixel(xx, yy, new Color32(baseColor.r, baseColor.g, baseColor.b, alpha));
+                }
+            }
+            tex.Apply();
+
+            // 生成 sprite
+            string spriteKey = $"region_{regionId}_{regionName}";
+            Sprite sp = Sprite.Create(tex, new Rect(0, 0, w, h), new Vector2(0.5f, 0.5f), pixelsPerUnit);
+            spriteDict[spriteKey] = sp;
+
+            // 坐标转换：左上角为 (0,0)
+            int rectY = (height - 1) - (minY + h - 1);
+
+            RegionRect r = new RegionRect
+            {
+                x = minX,
+                y = rectY,
+                width = w,
+                height = h
+            };
+
+            outList.regions.Add(new RegionEntry
+            {
+                name = spriteKey + ".png",
+                type = regionName,
+                rect = r
+            });
+
+            regionIndex++;
+        }
+
+        // 调用 PieceLoader 生成碎片 GameObject
+        pieceLoader.LoadPiecesFromData(outList, spriteDict);
+
+        Debug.Log($"RuntimeSegmenter: 完成分割并加载，共 {outList.regions.Count} 区域");
+    }
+}
