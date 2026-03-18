@@ -1,0 +1,142 @@
+{
+  "image_id": "smithsonian_51",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_51.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_51_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        261,
+        511,
+        471
+      ],
+      "center_xy": [
+        248.41,
+        374.5
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_51_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        51,
+        511,
+        126
+      ],
+      "center_xy": [
+        250.02,
+        82.21
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_51_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        183,
+        511,
+        298
+      ],
+      "center_xy": [
+        272.82,
+        244.62
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_51_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        93,
+        511,
+        222
+      ],
+      "center_xy": [
+        262.41,
+        159.27
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 5,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_51_inst_5.png",
+      "bbox_xyxy": [
+        190,
+        258,
+        309,
+        283
+      ],
+      "center_xy": [
+        253.58,
+        272.19
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.959
+    },
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.856
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.712
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.65
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.505
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.403
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.309
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

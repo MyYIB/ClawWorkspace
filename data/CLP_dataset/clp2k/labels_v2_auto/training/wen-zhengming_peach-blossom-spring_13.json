@@ -1,0 +1,200 @@
+{
+  "image_id": "wen-zhengming_peach-blossom-spring_13",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wen-zhengming_peach-blossom-spring_13.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_13_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        20,
+        370,
+        226
+      ],
+      "center_xy": [
+        178.28,
+        104.25
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_13_inst_2.png",
+      "bbox_xyxy": [
+        247,
+        89,
+        511,
+        322
+      ],
+      "center_xy": [
+        401.35,
+        215.12
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_13_inst_3.png",
+      "bbox_xyxy": [
+        28,
+        299,
+        97,
+        445
+      ],
+      "center_xy": [
+        54.89,
+        374.89
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_13_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        410,
+        511,
+        511
+      ],
+      "center_xy": [
+        288.98,
+        476.68
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_13_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        82,
+        511,
+        469
+      ],
+      "center_xy": [
+        224.97,
+        308.42
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 6,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_13_inst_6.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        136
+      ],
+      "center_xy": [
+        305.99,
+        35.19
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.987
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.763
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.694
+    },
+    {
+      "a_id": 2,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.676
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.61
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.386
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.377
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.317
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.294
+    },
+    {
+      "a_id": 1,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.29
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

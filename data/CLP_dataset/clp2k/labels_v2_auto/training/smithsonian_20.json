@@ -1,0 +1,174 @@
+{
+  "image_id": "smithsonian_20",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_20.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_20_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        71,
+        511,
+        453
+      ],
+      "center_xy": [
+        281.99,
+        227.06
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_20_inst_2.png",
+      "bbox_xyxy": [
+        391,
+        208,
+        465,
+        236
+      ],
+      "center_xy": [
+        431.85,
+        220.42
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_20_inst_3.png",
+      "bbox_xyxy": [
+        182,
+        314,
+        250,
+        425
+      ],
+      "center_xy": [
+        215.99,
+        376.49
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_20_inst_4.png",
+      "bbox_xyxy": [
+        116,
+        321,
+        172,
+        415
+      ],
+      "center_xy": [
+        145.31,
+        365.94
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_20_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        284,
+        127,
+        453
+      ],
+      "center_xy": [
+        44.07,
+        391.94
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_20_inst_6.png",
+      "bbox_xyxy": [
+        88,
+        245,
+        370,
+        453
+      ],
+      "center_xy": [
+        218.35,
+        366.79
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_20_inst_7.png",
+      "bbox_xyxy": [
+        392,
+        401,
+        511,
+        454
+      ],
+      "center_xy": [
+        442.57,
+        433.15
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 6,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.901
+    },
+    {
+      "a_id": 7,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.888
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.839
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.689
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.679
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.614
+    },
+    {
+      "a_id": 6,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.287
+    },
+    {
+      "a_id": 7,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.274
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "image_id": "where-truth-lies_4",
+  "image_path": "data/CLP_dataset/clp2k/images/training/where-truth-lies_4.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_4_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        245,
+        158,
+        392
+      ],
+      "center_xy": [
+        57.32,
+        323.24
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_4_inst_2.png",
+      "bbox_xyxy": [
+        90,
+        434,
+        511,
+        511
+      ],
+      "center_xy": [
+        270.14,
+        481.66
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_4_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        299
+      ],
+      "center_xy": [
+        182.59,
+        126.52
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_4_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        294,
+        511,
+        511
+      ],
+      "center_xy": [
+        250.61,
+        405.0
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_4_inst_5.png",
+      "bbox_xyxy": [
+        207,
+        68,
+        511,
+        377
+      ],
+      "center_xy": [
+        381.4,
+        220.16
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 6,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_4_inst_6.png",
+      "bbox_xyxy": [
+        119,
+        0,
+        445,
+        67
+      ],
+      "center_xy": [
+        276.19,
+        20.33
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.991
+    },
+    {
+      "a_id": 3,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.821
+    },
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.81
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.767
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.666
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.622
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.369
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "image_id": "taiguyiminjiangshanxinglvtu_47",
+  "image_path": "data/CLP_dataset/clp2k/images/training/taiguyiminjiangshanxinglvtu_47.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/taiguyiminjiangshanxinglvtu_47_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        416,
+        499
+      ],
+      "center_xy": [
+        136.43,
+        291.81
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/taiguyiminjiangshanxinglvtu_47_inst_2.png",
+      "bbox_xyxy": [
+        155,
+        0,
+        253,
+        64
+      ],
+      "center_xy": [
+        205.73,
+        25.77
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/taiguyiminjiangshanxinglvtu_47_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        511
+      ],
+      "center_xy": [
+        328.21,
+        293.39
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/taiguyiminjiangshanxinglvtu_47_inst_4.png",
+      "bbox_xyxy": [
+        83,
+        0,
+        381,
+        212
+      ],
+      "center_xy": [
+        232.36,
+        93.84
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.554
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

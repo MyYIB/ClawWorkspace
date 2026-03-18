@@ -1,0 +1,108 @@
+{
+  "image_id": "harvard_73",
+  "image_path": "data/CLP_dataset/clp2k/images/training/harvard_73.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_73_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        112,
+        98,
+        205
+      ],
+      "center_xy": [
+        44.81,
+        155.48
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_73_inst_2.png",
+      "bbox_xyxy": [
+        52,
+        394,
+        94,
+        447
+      ],
+      "center_xy": [
+        74.84,
+        419.37
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_73_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        414,
+        46,
+        462
+      ],
+      "center_xy": [
+        21.17,
+        433.9
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_73_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        1,
+        511,
+        511
+      ],
+      "center_xy": [
+        275.62,
+        299.77
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.95
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.308
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.252
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "image_id": "wu-yuanzhi_red-cliff_5",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wu-yuanzhi_red-cliff_5.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wu-yuanzhi_red-cliff_5_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        360,
+        511,
+        511
+      ],
+      "center_xy": [
+        276.94,
+        453.32
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wu-yuanzhi_red-cliff_5_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        247,
+        511,
+        416
+      ],
+      "center_xy": [
+        212.64,
+        342.06
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wu-yuanzhi_red-cliff_5_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        83,
+        511,
+        343
+      ],
+      "center_xy": [
+        272.12,
+        197.37
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.855
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.447
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.408
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

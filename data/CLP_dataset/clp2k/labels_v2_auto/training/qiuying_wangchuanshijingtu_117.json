@@ -1,0 +1,102 @@
+{
+  "image_id": "qiuying_wangchuanshijingtu_117",
+  "image_path": "data/CLP_dataset/clp2k/images/training/qiuying_wangchuanshijingtu_117.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_117_inst_1.png",
+      "bbox_xyxy": [
+        116,
+        243,
+        511,
+        511
+      ],
+      "center_xy": [
+        341.89,
+        374.57
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_117_inst_2.png",
+      "bbox_xyxy": [
+        121,
+        0,
+        511,
+        336
+      ],
+      "center_xy": [
+        375.89,
+        146.31
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_117_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        311,
+        390,
+        511
+      ],
+      "center_xy": [
+        141.98,
+        430.05
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_117_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        269,
+        336
+      ],
+      "center_xy": [
+        111.64,
+        149.5
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.97
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.921
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.83
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

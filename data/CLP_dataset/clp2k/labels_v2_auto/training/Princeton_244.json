@@ -1,0 +1,96 @@
+{
+  "image_id": "Princeton_244",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_244.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_244_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        493,
+        501
+      ],
+      "center_xy": [
+        222.54,
+        199.97
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_244_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        327,
+        453,
+        511
+      ],
+      "center_xy": [
+        218.83,
+        442.45
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_244_inst_3.png",
+      "bbox_xyxy": [
+        178,
+        339,
+        218,
+        400
+      ],
+      "center_xy": [
+        198.98,
+        369.14
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_244_inst_4.png",
+      "bbox_xyxy": [
+        125,
+        346,
+        154,
+        396
+      ],
+      "center_xy": [
+        138.53,
+        370.21
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.702
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.687
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.599
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

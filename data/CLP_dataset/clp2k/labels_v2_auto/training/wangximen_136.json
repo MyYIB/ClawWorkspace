@@ -1,0 +1,80 @@
+{
+  "image_id": "wangximen_136",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wangximen_136.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_136_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        262,
+        511,
+        511
+      ],
+      "center_xy": [
+        201.51,
+        419.77
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_136_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        278,
+        115,
+        399
+      ],
+      "center_xy": [
+        43.46,
+        328.44
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_136_inst_3.png",
+      "bbox_xyxy": [
+        256,
+        281,
+        511,
+        497
+      ],
+      "center_xy": [
+        404.28,
+        369.14
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.757
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.402
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.354
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

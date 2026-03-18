@@ -1,0 +1,168 @@
+{
+  "image_id": "met_1237",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_1237.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1237_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        159,
+        511,
+        475
+      ],
+      "center_xy": [
+        275.98,
+        287.03
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1237_inst_2.png",
+      "bbox_xyxy": [
+        51,
+        198,
+        211,
+        480
+      ],
+      "center_xy": [
+        125.51,
+        351.41
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "boat",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1237_inst_3.png",
+      "bbox_xyxy": [
+        321,
+        223,
+        460,
+        270
+      ],
+      "center_xy": [
+        391.03,
+        253.69
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "bridge",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1237_inst_4.png",
+      "bbox_xyxy": [
+        318,
+        406,
+        511,
+        467
+      ],
+      "center_xy": [
+        425.75,
+        438.48
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1237_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        416,
+        85,
+        480
+      ],
+      "center_xy": [
+        47.46,
+        447.89
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1237_inst_6.png",
+      "bbox_xyxy": [
+        116,
+        440,
+        224,
+        480
+      ],
+      "center_xy": [
+        165.06,
+        462.99
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1237_inst_7.png",
+      "bbox_xyxy": [
+        271,
+        456,
+        456,
+        481
+      ],
+      "center_xy": [
+        365.8,
+        472.18
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.833
+    },
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.792
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.768
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.747
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.667
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.602
+    },
+    {
+      "a_id": 7,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.231
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

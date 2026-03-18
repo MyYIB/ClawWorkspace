@@ -1,0 +1,12 @@
+{
+  "image_id": "harvard_21",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/harvard_21.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

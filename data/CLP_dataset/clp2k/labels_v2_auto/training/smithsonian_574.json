@@ -1,0 +1,142 @@
+{
+  "image_id": "smithsonian_574",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_574.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_574_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        20,
+        511,
+        392
+      ],
+      "center_xy": [
+        228.48,
+        194.96
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_574_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        431,
+        511,
+        494
+      ],
+      "center_xy": [
+        237.93,
+        465.03
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_574_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        14,
+        435,
+        189
+      ],
+      "center_xy": [
+        165.0,
+        88.95
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_574_inst_4.png",
+      "bbox_xyxy": [
+        293,
+        112,
+        510,
+        277
+      ],
+      "center_xy": [
+        409.49,
+        179.91
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 5,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_574_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        198,
+        511,
+        447
+      ],
+      "center_xy": [
+        298.07,
+        349.49
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.943
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.682
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.626
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.472
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.471
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

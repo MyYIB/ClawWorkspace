@@ -1,0 +1,108 @@
+{
+  "image_id": "wu-yuanzhi_red-cliff_4",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/wu-yuanzhi_red-cliff_4.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/wu-yuanzhi_red-cliff_4_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        320,
+        511,
+        511
+      ],
+      "center_xy": [
+        260.58,
+        438.32
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/wu-yuanzhi_red-cliff_4_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        474,
+        424
+      ],
+      "center_xy": [
+        210.18,
+        188.61
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/wu-yuanzhi_red-cliff_4_inst_3.png",
+      "bbox_xyxy": [
+        367,
+        171,
+        511,
+        338
+      ],
+      "center_xy": [
+        452.71,
+        264.1
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/wu-yuanzhi_red-cliff_4_inst_4.png",
+      "bbox_xyxy": [
+        387,
+        0,
+        511,
+        214
+      ],
+      "center_xy": [
+        462.38,
+        91.15
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.944
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.858
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.748
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.662
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

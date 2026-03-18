@@ -1,0 +1,74 @@
+{
+  "image_id": "met_77",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_77.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_77_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        220,
+        462
+      ],
+      "center_xy": [
+        98.28,
+        218.37
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_77_inst_2.png",
+      "bbox_xyxy": [
+        212,
+        0,
+        511,
+        415
+      ],
+      "center_xy": [
+        363.93,
+        178.15
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_77_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        221,
+        511,
+        511
+      ],
+      "center_xy": [
+        306.17,
+        427.72
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.928
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

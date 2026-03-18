@@ -1,0 +1,140 @@
+{
+  "image_id": "xiaoyuncun_qiushanxinglvtu_51",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/xiaoyuncun_qiushanxinglvtu_51.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/xiaoyuncun_qiushanxinglvtu_51_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        511
+      ],
+      "center_xy": [
+        242.71,
+        211.36
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/xiaoyuncun_qiushanxinglvtu_51_inst_2.png",
+      "bbox_xyxy": [
+        179,
+        422,
+        395,
+        511
+      ],
+      "center_xy": [
+        295.72,
+        476.57
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/xiaoyuncun_qiushanxinglvtu_51_inst_3.png",
+      "bbox_xyxy": [
+        414,
+        429,
+        462,
+        476
+      ],
+      "center_xy": [
+        436.12,
+        452.33
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/xiaoyuncun_qiushanxinglvtu_51_inst_4.png",
+      "bbox_xyxy": [
+        475,
+        438,
+        511,
+        501
+      ],
+      "center_xy": [
+        495.12,
+        468.78
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/xiaoyuncun_qiushanxinglvtu_51_inst_5.png",
+      "bbox_xyxy": [
+        253,
+        344,
+        511,
+        511
+      ],
+      "center_xy": [
+        398.57,
+        425.56
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/xiaoyuncun_qiushanxinglvtu_51_inst_6.png",
+      "bbox_xyxy": [
+        50,
+        403,
+        257,
+        511
+      ],
+      "center_xy": [
+        155.33,
+        464.33
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.413
+    },
+    {
+      "a_id": 6,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.383
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.329
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.247
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.23
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

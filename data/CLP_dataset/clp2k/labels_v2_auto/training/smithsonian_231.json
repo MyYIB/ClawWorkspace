@@ -1,0 +1,108 @@
+{
+  "image_id": "smithsonian_231",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_231.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_231_inst_1.png",
+      "bbox_xyxy": [
+        13,
+        100,
+        496,
+        511
+      ],
+      "center_xy": [
+        254.92,
+        338.97
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_231_inst_2.png",
+      "bbox_xyxy": [
+        12,
+        398,
+        83,
+        511
+      ],
+      "center_xy": [
+        42.23,
+        458.92
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_231_inst_3.png",
+      "bbox_xyxy": [
+        307,
+        292,
+        329,
+        326
+      ],
+      "center_xy": [
+        317.73,
+        309.82
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_231_inst_4.png",
+      "bbox_xyxy": [
+        286,
+        339,
+        312,
+        459
+      ],
+      "center_xy": [
+        297.01,
+        389.94
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.814
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.687
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.453
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.361
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.325
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

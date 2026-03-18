@@ -1,0 +1,222 @@
+{
+  "image_id": "wen-zhengming_peach-blossom-spring_12",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wen-zhengming_peach-blossom-spring_12.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_12_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        316,
+        359,
+        511
+      ],
+      "center_xy": [
+        136.98,
+        396.67
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_12_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        30,
+        511,
+        338
+      ],
+      "center_xy": [
+        194.47,
+        160.64
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_12_inst_3.png",
+      "bbox_xyxy": [
+        329,
+        229,
+        403,
+        274
+      ],
+      "center_xy": [
+        368.38,
+        250.0
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_12_inst_4.png",
+      "bbox_xyxy": [
+        488,
+        328,
+        511,
+        404
+      ],
+      "center_xy": [
+        503.23,
+        358.05
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_12_inst_5.png",
+      "bbox_xyxy": [
+        278,
+        344,
+        511,
+        511
+      ],
+      "center_xy": [
+        424.76,
+        433.56
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_12_inst_6.png",
+      "bbox_xyxy": [
+        147,
+        105,
+        511,
+        445
+      ],
+      "center_xy": [
+        368.26,
+        258.9
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 7,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wen-zhengming_peach-blossom-spring_12_inst_7.png",
+      "bbox_xyxy": [
+        12,
+        417,
+        492,
+        511
+      ],
+      "center_xy": [
+        267.81,
+        478.93
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.951
+    },
+    {
+      "a_id": 7,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.935
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.919
+    },
+    {
+      "a_id": 7,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.758
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.732
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.701
+    },
+    {
+      "a_id": 7,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.627
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.555
+    },
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.527
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.524
+    },
+    {
+      "a_id": 5,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.424
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.396
+    },
+    {
+      "a_id": 1,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.392
+    },
+    {
+      "a_id": 6,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.309
+    },
+    {
+      "a_id": 7,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.234
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

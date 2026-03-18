@@ -1,0 +1,12 @@
+{
+  "image_id": "Princeton_222",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_222.jpg",
+  "width": 2153,
+  "height": 2113,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

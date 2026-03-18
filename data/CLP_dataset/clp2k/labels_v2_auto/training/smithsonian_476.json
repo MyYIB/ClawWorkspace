@@ -1,0 +1,186 @@
+{
+  "image_id": "smithsonian_476",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_476.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_476_inst_1.png",
+      "bbox_xyxy": [
+        10,
+        51,
+        501,
+        511
+      ],
+      "center_xy": [
+        286.07,
+        285.53
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_476_inst_2.png",
+      "bbox_xyxy": [
+        12,
+        228,
+        174,
+        307
+      ],
+      "center_xy": [
+        99.42,
+        267.6
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_476_inst_3.png",
+      "bbox_xyxy": [
+        157,
+        316,
+        227,
+        360
+      ],
+      "center_xy": [
+        193.65,
+        336.27
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_476_inst_4.png",
+      "bbox_xyxy": [
+        20,
+        336,
+        105,
+        478
+      ],
+      "center_xy": [
+        60.11,
+        402.88
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_476_inst_5.png",
+      "bbox_xyxy": [
+        89,
+        372,
+        249,
+        486
+      ],
+      "center_xy": [
+        163.03,
+        432.07
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_476_inst_6.png",
+      "bbox_xyxy": [
+        12,
+        439,
+        46,
+        468
+      ],
+      "center_xy": [
+        25.77,
+        459.44
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_476_inst_7.png",
+      "bbox_xyxy": [
+        70,
+        445,
+        96,
+        471
+      ],
+      "center_xy": [
+        81.41,
+        458.14
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.679
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.676
+    },
+    {
+      "a_id": 6,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.612
+    },
+    {
+      "a_id": 7,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.598
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.523
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.507
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.504
+    },
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.441
+    },
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.427
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.351
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

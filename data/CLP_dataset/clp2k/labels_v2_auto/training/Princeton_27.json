@@ -1,0 +1,162 @@
+{
+  "image_id": "Princeton_27",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_27.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_27_inst_1.png",
+      "bbox_xyxy": [
+        209,
+        144,
+        417,
+        511
+      ],
+      "center_xy": [
+        322.12,
+        306.34
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_27_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        378,
+        269,
+        511
+      ],
+      "center_xy": [
+        137.84,
+        459.56
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_27_inst_3.png",
+      "bbox_xyxy": [
+        388,
+        302,
+        483,
+        511
+      ],
+      "center_xy": [
+        431.42,
+        400.54
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_27_inst_4.png",
+      "bbox_xyxy": [
+        308,
+        307,
+        372,
+        511
+      ],
+      "center_xy": [
+        330.71,
+        410.62
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_27_inst_5.png",
+      "bbox_xyxy": [
+        172,
+        324,
+        308,
+        511
+      ],
+      "center_xy": [
+        246.45,
+        408.85
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_27_inst_6.png",
+      "bbox_xyxy": [
+        190,
+        451,
+        228,
+        502
+      ],
+      "center_xy": [
+        208.76,
+        477.84
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_27_inst_7.png",
+      "bbox_xyxy": [
+        0,
+        103,
+        511,
+        511
+      ],
+      "center_xy": [
+        235.24,
+        260.95
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.453
+    },
+    {
+      "a_id": 2,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.328
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.316
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.311
+    },
+    {
+      "a_id": 6,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.281
+    },
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.248
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

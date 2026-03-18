@@ -1,0 +1,80 @@
+{
+  "image_id": "sushi_yanjiangdiezhangtu_67",
+  "image_path": "data/CLP_dataset/clp2k/images/training/sushi_yanjiangdiezhangtu_67.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/sushi_yanjiangdiezhangtu_67_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        101,
+        511,
+        511
+      ],
+      "center_xy": [
+        233.71,
+        354.96
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/sushi_yanjiangdiezhangtu_67_inst_2.png",
+      "bbox_xyxy": [
+        127,
+        35,
+        511,
+        320
+      ],
+      "center_xy": [
+        303.58,
+        166.64
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/sushi_yanjiangdiezhangtu_67_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        181
+      ],
+      "center_xy": [
+        270.2,
+        60.81
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.948
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.458
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

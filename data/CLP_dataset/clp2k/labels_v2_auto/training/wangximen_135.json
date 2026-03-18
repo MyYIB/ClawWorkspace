@@ -1,0 +1,74 @@
+{
+  "image_id": "wangximen_135",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wangximen_135.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_135_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        269,
+        511,
+        511
+      ],
+      "center_xy": [
+        279.18,
+        430.14
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_135_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        440
+      ],
+      "center_xy": [
+        228.34,
+        190.59
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_135_inst_3.png",
+      "bbox_xyxy": [
+        64,
+        103,
+        511,
+        329
+      ],
+      "center_xy": [
+        288.41,
+        214.17
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.9
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.731
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

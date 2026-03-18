@@ -1,0 +1,61 @@
+{
+  "image_id": "met_195",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_195.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_195_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        242,
+        232,
+        511
+      ],
+      "center_xy": [
+        91.53,
+        403.55
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_195_inst_2.png",
+      "bbox_xyxy": [
+        303,
+        377,
+        511,
+        511
+      ],
+      "center_xy": [
+        412.36,
+        456.54
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_195_inst_3.png",
+      "bbox_xyxy": [
+        2,
+        172,
+        511,
+        511
+      ],
+      "center_xy": [
+        284.91,
+        299.89
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

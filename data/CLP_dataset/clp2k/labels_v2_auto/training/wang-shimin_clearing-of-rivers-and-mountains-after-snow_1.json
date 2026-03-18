@@ -1,0 +1,29 @@
+{
+  "image_id": "wang-shimin_clearing-of-rivers-and-mountains-after-snow_1",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wang-shimin_clearing-of-rivers-and-mountains-after-snow_1.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wang-shimin_clearing-of-rivers-and-mountains-after-snow_1_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        101,
+        511,
+        511
+      ],
+      "center_xy": [
+        291.12,
+        352.3
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "image_id": "met_1245",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_1245.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1245_inst_1.png",
+      "bbox_xyxy": [
+        16,
+        279,
+        328,
+        511
+      ],
+      "center_xy": [
+        128.41,
+        417.38
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1245_inst_2.png",
+      "bbox_xyxy": [
+        313,
+        346,
+        374,
+        511
+      ],
+      "center_xy": [
+        347.34,
+        437.66
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1245_inst_3.png",
+      "bbox_xyxy": [
+        378,
+        359,
+        461,
+        511
+      ],
+      "center_xy": [
+        417.06,
+        435.68
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1245_inst_4.png",
+      "bbox_xyxy": [
+        167,
+        223,
+        284,
+        276
+      ],
+      "center_xy": [
+        230.59,
+        249.21
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 5,
+      "class": "bridge",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1245_inst_5.png",
+      "bbox_xyxy": [
+        258,
+        497,
+        320,
+        511
+      ],
+      "center_xy": [
+        296.87,
+        505.41
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1245_inst_6.png",
+      "bbox_xyxy": [
+        12,
+        0,
+        480,
+        397
+      ],
+      "center_xy": [
+        278.6,
+        193.89
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.975
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.919
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.785
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.772
+    },
+    {
+      "a_id": 1,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.602
+    },
+    {
+      "a_id": 5,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.545
+    },
+    {
+      "a_id": 3,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.411
+    },
+    {
+      "a_id": 2,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.399
+    },
+    {
+      "a_id": 6,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.374
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

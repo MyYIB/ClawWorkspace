@@ -1,0 +1,52 @@
+{
+  "image_id": "Princeton_321",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_321.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_321_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        92,
+        511,
+        511
+      ],
+      "center_xy": [
+        217.98,
+        348.66
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_321_inst_2.png",
+      "bbox_xyxy": [
+        2,
+        38,
+        511,
+        409
+      ],
+      "center_xy": [
+        314.75,
+        162.05
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.776
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

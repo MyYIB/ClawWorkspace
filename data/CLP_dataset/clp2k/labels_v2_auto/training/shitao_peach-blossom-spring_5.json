@@ -1,0 +1,52 @@
+{
+  "image_id": "shitao_peach-blossom-spring_5",
+  "image_path": "data/CLP_dataset/clp2k/images/training/shitao_peach-blossom-spring_5.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shitao_peach-blossom-spring_5_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        511
+      ],
+      "center_xy": [
+        263.63,
+        263.4
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shitao_peach-blossom-spring_5_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        90,
+        125
+      ],
+      "center_xy": [
+        40.62,
+        55.82
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

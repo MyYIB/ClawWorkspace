@@ -1,0 +1,80 @@
+{
+  "image_id": "zhao-ji_autumn-colors_7",
+  "image_path": "data/CLP_dataset/clp2k/images/training/zhao-ji_autumn-colors_7.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/zhao-ji_autumn-colors_7_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        142,
+        511,
+        511
+      ],
+      "center_xy": [
+        320.28,
+        348.8
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/zhao-ji_autumn-colors_7_inst_2.png",
+      "bbox_xyxy": [
+        222,
+        73,
+        511,
+        207
+      ],
+      "center_xy": [
+        407.27,
+        128.19
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/zhao-ji_autumn-colors_7_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        220,
+        276,
+        469
+      ],
+      "center_xy": [
+        96.57,
+        333.95
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.913
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.346
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "image_id": "smithsonian_486",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_486.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_486_inst_1.png",
+      "bbox_xyxy": [
+        395,
+        396,
+        511,
+        506
+      ],
+      "center_xy": [
+        441.45,
+        444.85
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_486_inst_2.png",
+      "bbox_xyxy": [
+        5,
+        267,
+        511,
+        509
+      ],
+      "center_xy": [
+        238.38,
+        420.29
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_486_inst_3.png",
+      "bbox_xyxy": [
+        129,
+        5,
+        511,
+        427
+      ],
+      "center_xy": [
+        346.88,
+        219.26
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.699
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.398
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.301
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

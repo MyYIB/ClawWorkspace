@@ -1,0 +1,29 @@
+{
+  "image_id": "met_16",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_16.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_16_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        138,
+        511,
+        511
+      ],
+      "center_xy": [
+        273.98,
+        355.14
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

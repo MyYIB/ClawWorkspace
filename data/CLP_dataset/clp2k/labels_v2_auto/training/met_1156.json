@@ -1,0 +1,96 @@
+{
+  "image_id": "met_1156",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_1156.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1156_inst_1.png",
+      "bbox_xyxy": [
+        14,
+        104,
+        492,
+        511
+      ],
+      "center_xy": [
+        196.64,
+        382.63
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1156_inst_2.png",
+      "bbox_xyxy": [
+        107,
+        86,
+        305,
+        397
+      ],
+      "center_xy": [
+        200.46,
+        225.84
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1156_inst_3.png",
+      "bbox_xyxy": [
+        67,
+        0,
+        495,
+        422
+      ],
+      "center_xy": [
+        344.68,
+        119.29
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1156_inst_4.png",
+      "bbox_xyxy": [
+        287,
+        231,
+        420,
+        365
+      ],
+      "center_xy": [
+        350.28,
+        301.61
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.935
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.831
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

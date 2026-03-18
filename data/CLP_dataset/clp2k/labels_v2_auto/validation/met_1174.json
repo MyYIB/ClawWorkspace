@@ -1,0 +1,29 @@
+{
+  "image_id": "met_1174",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/met_1174.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_1174_inst_1.png",
+      "bbox_xyxy": [
+        10,
+        91,
+        498,
+        511
+      ],
+      "center_xy": [
+        238.08,
+        342.72
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

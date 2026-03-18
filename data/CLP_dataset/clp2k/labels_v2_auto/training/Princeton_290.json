@@ -1,0 +1,29 @@
+{
+  "image_id": "Princeton_290",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_290.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_290_inst_1.png",
+      "bbox_xyxy": [
+        21,
+        156,
+        497,
+        511
+      ],
+      "center_xy": [
+        278.37,
+        376.07
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

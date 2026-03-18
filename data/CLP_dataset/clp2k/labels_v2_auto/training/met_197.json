@@ -1,0 +1,45 @@
+{
+  "image_id": "met_197",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_197.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_197_inst_1.png",
+      "bbox_xyxy": [
+        18,
+        154,
+        247,
+        511
+      ],
+      "center_xy": [
+        146.2,
+        378.86
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_197_inst_2.png",
+      "bbox_xyxy": [
+        304,
+        378,
+        492,
+        511
+      ],
+      "center_xy": [
+        361.38,
+        470.64
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

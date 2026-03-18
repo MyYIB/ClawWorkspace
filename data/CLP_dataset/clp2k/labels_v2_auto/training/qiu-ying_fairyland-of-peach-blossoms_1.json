@@ -1,0 +1,136 @@
+{
+  "image_id": "qiu-ying_fairyland-of-peach-blossoms_1",
+  "image_path": "data/CLP_dataset/clp2k/images/training/qiu-ying_fairyland-of-peach-blossoms_1.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiu-ying_fairyland-of-peach-blossoms_1_inst_1.png",
+      "bbox_xyxy": [
+        165,
+        50,
+        487,
+        511
+      ],
+      "center_xy": [
+        333.4,
+        337.69
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiu-ying_fairyland-of-peach-blossoms_1_inst_2.png",
+      "bbox_xyxy": [
+        259,
+        132,
+        295,
+        222
+      ],
+      "center_xy": [
+        276.92,
+        181.04
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiu-ying_fairyland-of-peach-blossoms_1_inst_3.png",
+      "bbox_xyxy": [
+        424,
+        365,
+        511,
+        511
+      ],
+      "center_xy": [
+        472.46,
+        442.11
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiu-ying_fairyland-of-peach-blossoms_1_inst_4.png",
+      "bbox_xyxy": [
+        164,
+        47,
+        406,
+        402
+      ],
+      "center_xy": [
+        303.62,
+        227.5
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiu-ying_fairyland-of-peach-blossoms_1_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        147,
+        259,
+        511
+      ],
+      "center_xy": [
+        93.58,
+        322.46
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.971
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.585
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.577
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.536
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.394
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

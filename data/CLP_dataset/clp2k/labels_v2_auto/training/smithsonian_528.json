@@ -1,0 +1,61 @@
+{
+  "image_id": "smithsonian_528",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_528.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_528_inst_1.png",
+      "bbox_xyxy": [
+        185,
+        349,
+        470,
+        511
+      ],
+      "center_xy": [
+        326.29,
+        435.38
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_528_inst_2.png",
+      "bbox_xyxy": [
+        24,
+        230,
+        259,
+        511
+      ],
+      "center_xy": [
+        116.5,
+        379.06
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_528_inst_3.png",
+      "bbox_xyxy": [
+        392,
+        373,
+        483,
+        511
+      ],
+      "center_xy": [
+        448.96,
+        468.97
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

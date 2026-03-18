@@ -1,0 +1,12 @@
+{
+  "image_id": "where-truth-lies_11",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/where-truth-lies_11.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

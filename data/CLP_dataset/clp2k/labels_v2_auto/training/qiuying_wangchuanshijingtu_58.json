@@ -1,0 +1,74 @@
+{
+  "image_id": "qiuying_wangchuanshijingtu_58",
+  "image_path": "data/CLP_dataset/clp2k/images/training/qiuying_wangchuanshijingtu_58.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_58_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        46,
+        511,
+        511
+      ],
+      "center_xy": [
+        286.76,
+        296.22
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_58_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        132,
+        149,
+        271
+      ],
+      "center_xy": [
+        58.9,
+        199.3
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_58_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        330,
+        170,
+        511
+      ],
+      "center_xy": [
+        69.82,
+        412.03
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.954
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.884
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "image_id": "met_1129",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/met_1129.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "image_id": "shen-zhou_fuchun-mountains_11",
+  "image_path": "data/CLP_dataset/clp2k/images/training/shen-zhou_fuchun-mountains_11.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_11_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        220,
+        511,
+        511
+      ],
+      "center_xy": [
+        258.66,
+        369.91
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_11_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        158,
+        511,
+        244
+      ],
+      "center_xy": [
+        225.5,
+        207.93
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_11_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        86,
+        511,
+        194
+      ],
+      "center_xy": [
+        248.83,
+        141.92
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.927
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "image_id": "shen-zhou_fuchun-mountains_8",
+  "image_path": "data/CLP_dataset/clp2k/images/training/shen-zhou_fuchun-mountains_8.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_8_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        410,
+        511,
+        511
+      ],
+      "center_xy": [
+        290.68,
+        471.58
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_8_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        143,
+        511,
+        486
+      ],
+      "center_xy": [
+        230.13,
+        320.73
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_8_inst_3.png",
+      "bbox_xyxy": [
+        323,
+        211,
+        477,
+        329
+      ],
+      "center_xy": [
+        398.55,
+        267.38
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_8_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        214,
+        178,
+        329
+      ],
+      "center_xy": [
+        81.25,
+        270.79
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_8_inst_5.png",
+      "bbox_xyxy": [
+        214,
+        216,
+        279,
+        266
+      ],
+      "center_xy": [
+        248.29,
+        241.46
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.953
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.926
+    },
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.915
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.684
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.656
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.269
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.259
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.231
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

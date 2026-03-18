@@ -1,0 +1,29 @@
+{
+  "image_id": "harvard_22",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/harvard_22.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/harvard_22_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        97,
+        511,
+        511
+      ],
+      "center_xy": [
+        198.96,
+        346.4
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "image_id": "sushi_yanjiangdiezhangtu_34",
+  "image_path": "data/CLP_dataset/clp2k/images/training/sushi_yanjiangdiezhangtu_34.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/sushi_yanjiangdiezhangtu_34_inst_1.png",
+      "bbox_xyxy": [
+        34,
+        206,
+        440,
+        511
+      ],
+      "center_xy": [
+        230.44,
+        390.51
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/sushi_yanjiangdiezhangtu_34_inst_2.png",
+      "bbox_xyxy": [
+        393,
+        314,
+        511,
+        468
+      ],
+      "center_xy": [
+        461.84,
+        388.97
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/sushi_yanjiangdiezhangtu_34_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        195,
+        166,
+        511
+      ],
+      "center_xy": [
+        56.88,
+        326.97
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/sushi_yanjiangdiezhangtu_34_inst_4.png",
+      "bbox_xyxy": [
+        237,
+        202,
+        511,
+        511
+      ],
+      "center_xy": [
+        407.32,
+        318.04
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.454
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.385
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.369
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

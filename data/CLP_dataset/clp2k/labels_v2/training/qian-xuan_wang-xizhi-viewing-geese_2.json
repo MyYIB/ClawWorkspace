@@ -1,0 +1,12 @@
+{
+  "image_id": "qian-xuan_wang-xizhi-viewing-geese_2",
+  "image_path": "data/CLP_dataset/clp2k/images/training/qian-xuan_wang-xizhi-viewing-geese_2.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

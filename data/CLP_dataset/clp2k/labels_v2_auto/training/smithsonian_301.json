@@ -1,0 +1,158 @@
+{
+  "image_id": "smithsonian_301",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_301.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_301_inst_1.png",
+      "bbox_xyxy": [
+        10,
+        0,
+        502,
+        369
+      ],
+      "center_xy": [
+        308.37,
+        116.79
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_301_inst_2.png",
+      "bbox_xyxy": [
+        224,
+        33,
+        501,
+        443
+      ],
+      "center_xy": [
+        344.54,
+        257.73
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_301_inst_3.png",
+      "bbox_xyxy": [
+        13,
+        43,
+        245,
+        426
+      ],
+      "center_xy": [
+        131.8,
+        228.71
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_301_inst_4.png",
+      "bbox_xyxy": [
+        135,
+        364,
+        158,
+        418
+      ],
+      "center_xy": [
+        145.26,
+        391.65
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_301_inst_5.png",
+      "bbox_xyxy": [
+        189,
+        367,
+        206,
+        388
+      ],
+      "center_xy": [
+        197.2,
+        377.45
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_301_inst_6.png",
+      "bbox_xyxy": [
+        13,
+        310,
+        501,
+        511
+      ],
+      "center_xy": [
+        231.0,
+        450.49
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 6,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.892
+    },
+    {
+      "a_id": 6,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.778
+    },
+    {
+      "a_id": 6,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.713
+    },
+    {
+      "a_id": 6,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.695
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.419
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.401
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.337
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

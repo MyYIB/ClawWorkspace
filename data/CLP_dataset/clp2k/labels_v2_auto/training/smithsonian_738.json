@@ -1,0 +1,45 @@
+{
+  "image_id": "smithsonian_738",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_738.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_738_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        253,
+        340,
+        511
+      ],
+      "center_xy": [
+        198.03,
+        416.48
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_738_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        151,
+        511,
+        511
+      ],
+      "center_xy": [
+        284.71,
+        305.45
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

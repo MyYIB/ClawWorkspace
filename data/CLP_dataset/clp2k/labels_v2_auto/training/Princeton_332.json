@@ -1,0 +1,102 @@
+{
+  "image_id": "Princeton_332",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_332.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_332_inst_1.png",
+      "bbox_xyxy": [
+        3,
+        260,
+        508,
+        511
+      ],
+      "center_xy": [
+        263.45,
+        395.48
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_332_inst_2.png",
+      "bbox_xyxy": [
+        93,
+        11,
+        487,
+        310
+      ],
+      "center_xy": [
+        288.41,
+        164.05
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_332_inst_3.png",
+      "bbox_xyxy": [
+        4,
+        0,
+        509,
+        295
+      ],
+      "center_xy": [
+        206.48,
+        105.72
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_332_inst_4.png",
+      "bbox_xyxy": [
+        24,
+        377,
+        322,
+        475
+      ],
+      "center_xy": [
+        173.64,
+        427.95
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.926
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.899
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.743
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

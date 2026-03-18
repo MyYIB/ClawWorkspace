@@ -1,0 +1,29 @@
+{
+  "image_id": "wu-yuanzhi_red-cliff_3",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wu-yuanzhi_red-cliff_3.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wu-yuanzhi_red-cliff_3_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        43,
+        511,
+        511
+      ],
+      "center_xy": [
+        216.5,
+        307.54
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

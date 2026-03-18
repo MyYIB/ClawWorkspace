@@ -1,0 +1,118 @@
+{
+  "image_id": "met_303",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_303.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_303_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        150,
+        511,
+        511
+      ],
+      "center_xy": [
+        256.39,
+        376.32
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_303_inst_2.png",
+      "bbox_xyxy": [
+        332,
+        266,
+        378,
+        319
+      ],
+      "center_xy": [
+        356.33,
+        295.49
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_303_inst_3.png",
+      "bbox_xyxy": [
+        271,
+        298,
+        313,
+        343
+      ],
+      "center_xy": [
+        291.14,
+        320.24
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_303_inst_4.png",
+      "bbox_xyxy": [
+        108,
+        310,
+        156,
+        376
+      ],
+      "center_xy": [
+        130.58,
+        345.7
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_303_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        79,
+        511,
+        335
+      ],
+      "center_xy": [
+        247.61,
+        172.27
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.952
+    },
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.911
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.865
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.744
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

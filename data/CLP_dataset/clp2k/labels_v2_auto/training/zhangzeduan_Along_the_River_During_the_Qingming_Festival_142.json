@@ -1,0 +1,80 @@
+{
+  "image_id": "zhangzeduan_Along_the_River_During_the_Qingming_Festival_142",
+  "image_path": "data/CLP_dataset/clp2k/images/training/zhangzeduan_Along_the_River_During_the_Qingming_Festival_142.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/zhangzeduan_Along_the_River_During_the_Qingming_Festival_142_inst_1.png",
+      "bbox_xyxy": [
+        206,
+        152,
+        413,
+        511
+      ],
+      "center_xy": [
+        286.49,
+        315.14
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/zhangzeduan_Along_the_River_During_the_Qingming_Festival_142_inst_2.png",
+      "bbox_xyxy": [
+        322,
+        319,
+        386,
+        349
+      ],
+      "center_xy": [
+        350.48,
+        333.26
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/zhangzeduan_Along_the_River_During_the_Qingming_Festival_142_inst_3.png",
+      "bbox_xyxy": [
+        301,
+        374,
+        511,
+        511
+      ],
+      "center_xy": [
+        406.95,
+        446.07
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.651
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.339
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.312
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

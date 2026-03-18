@@ -1,0 +1,12 @@
+{
+  "image_id": "wang-yuanqi_autumn-mountains_6",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wang-yuanqi_autumn-mountains_6.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

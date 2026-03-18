@@ -1,0 +1,45 @@
+{
+  "image_id": "harvard_46",
+  "image_path": "data/CLP_dataset/clp2k/images/training/harvard_46.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_46_inst_1.png",
+      "bbox_xyxy": [
+        125,
+        226,
+        411,
+        511
+      ],
+      "center_xy": [
+        280.78,
+        389.18
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_46_inst_2.png",
+      "bbox_xyxy": [
+        16,
+        120,
+        501,
+        511
+      ],
+      "center_xy": [
+        244.12,
+        294.25
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

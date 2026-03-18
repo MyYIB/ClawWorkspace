@@ -1,0 +1,128 @@
+{
+  "image_id": "smithsonian_306",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_306.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_306_inst_1.png",
+      "bbox_xyxy": [
+        11,
+        316,
+        232,
+        511
+      ],
+      "center_xy": [
+        130.55,
+        415.87
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_306_inst_2.png",
+      "bbox_xyxy": [
+        307,
+        387,
+        503,
+        511
+      ],
+      "center_xy": [
+        426.8,
+        472.8
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_306_inst_3.png",
+      "bbox_xyxy": [
+        203,
+        437,
+        232,
+        511
+      ],
+      "center_xy": [
+        215.13,
+        480.05
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_306_inst_4.png",
+      "bbox_xyxy": [
+        10,
+        102,
+        501,
+        511
+      ],
+      "center_xy": [
+        269.03,
+        268.94
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_306_inst_5.png",
+      "bbox_xyxy": [
+        7,
+        445,
+        168,
+        511
+      ],
+      "center_xy": [
+        69.7,
+        483.56
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_306_inst_6.png",
+      "bbox_xyxy": [
+        172,
+        463,
+        200,
+        476
+      ],
+      "center_xy": [
+        186.09,
+        468.73
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.307
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.261
+    },
+    {
+      "a_id": 2,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.245
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

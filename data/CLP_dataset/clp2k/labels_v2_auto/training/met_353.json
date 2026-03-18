@@ -1,0 +1,164 @@
+{
+  "image_id": "met_353",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_353.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_353_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        458
+      ],
+      "center_xy": [
+        235.94,
+        160.61
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_353_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        117,
+        28,
+        472
+      ],
+      "center_xy": [
+        12.58,
+        299.86
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_353_inst_3.png",
+      "bbox_xyxy": [
+        142,
+        209,
+        509,
+        511
+      ],
+      "center_xy": [
+        340.24,
+        358.71
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_353_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        440,
+        228,
+        502
+      ],
+      "center_xy": [
+        106.47,
+        476.31
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "waterfall",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_353_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        109,
+        49,
+        457
+      ],
+      "center_xy": [
+        34.03,
+        306.09
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 6,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_353_inst_6.png",
+      "bbox_xyxy": [
+        324,
+        395,
+        511,
+        511
+      ],
+      "center_xy": [
+        462.62,
+        475.6
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 6,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.765
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.72
+    },
+    {
+      "a_id": 6,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.689
+    },
+    {
+      "a_id": 6,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.667
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.645
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.623
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.619
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.543
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.521
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

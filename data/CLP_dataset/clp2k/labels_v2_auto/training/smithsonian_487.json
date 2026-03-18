@@ -1,0 +1,158 @@
+{
+  "image_id": "smithsonian_487",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_487.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_487_inst_1.png",
+      "bbox_xyxy": [
+        90,
+        62,
+        491,
+        511
+      ],
+      "center_xy": [
+        319.43,
+        306.11
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_487_inst_2.png",
+      "bbox_xyxy": [
+        32,
+        356,
+        151,
+        487
+      ],
+      "center_xy": [
+        93.08,
+        407.44
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_487_inst_3.png",
+      "bbox_xyxy": [
+        115,
+        430,
+        208,
+        511
+      ],
+      "center_xy": [
+        163.98,
+        475.93
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_487_inst_4.png",
+      "bbox_xyxy": [
+        24,
+        26,
+        495,
+        511
+      ],
+      "center_xy": [
+        180.03,
+        163.37
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 5,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_487_inst_5.png",
+      "bbox_xyxy": [
+        136,
+        341,
+        179,
+        395
+      ],
+      "center_xy": [
+        158.88,
+        367.48
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "waterfall",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_487_inst_6.png",
+      "bbox_xyxy": [
+        280,
+        349,
+        328,
+        456
+      ],
+      "center_xy": [
+        309.14,
+        412.35
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.566
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.488
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.468
+    },
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.39
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.362
+    },
+    {
+      "a_id": 6,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.293
+    },
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.284
+    },
+    {
+      "a_id": 3,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.274
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

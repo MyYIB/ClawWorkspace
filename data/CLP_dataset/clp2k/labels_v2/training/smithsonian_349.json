@@ -1,0 +1,12 @@
+{
+  "image_id": "smithsonian_349",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_349.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

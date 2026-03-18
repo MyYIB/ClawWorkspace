@@ -1,0 +1,96 @@
+{
+  "image_id": "met_225",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/met_225.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_225_inst_1.png",
+      "bbox_xyxy": [
+        75,
+        147,
+        287,
+        439
+      ],
+      "center_xy": [
+        183.74,
+        298.83
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_225_inst_2.png",
+      "bbox_xyxy": [
+        387,
+        342,
+        476,
+        511
+      ],
+      "center_xy": [
+        437.58,
+        452.81
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_225_inst_3.png",
+      "bbox_xyxy": [
+        267,
+        392,
+        351,
+        494
+      ],
+      "center_xy": [
+        310.86,
+        452.23
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_225_inst_4.png",
+      "bbox_xyxy": [
+        39,
+        167,
+        474,
+        511
+      ],
+      "center_xy": [
+        280.57,
+        349.64
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.43
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.39
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.338
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

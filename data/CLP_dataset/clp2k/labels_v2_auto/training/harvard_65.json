@@ -1,0 +1,96 @@
+{
+  "image_id": "harvard_65",
+  "image_path": "data/CLP_dataset/clp2k/images/training/harvard_65.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_65_inst_1.png",
+      "bbox_xyxy": [
+        328,
+        302,
+        501,
+        466
+      ],
+      "center_xy": [
+        402.42,
+        379.5
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_65_inst_2.png",
+      "bbox_xyxy": [
+        5,
+        0,
+        505,
+        511
+      ],
+      "center_xy": [
+        294.98,
+        260.11
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_65_inst_3.png",
+      "bbox_xyxy": [
+        5,
+        180,
+        149,
+        314
+      ],
+      "center_xy": [
+        55.08,
+        265.25
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_65_inst_4.png",
+      "bbox_xyxy": [
+        6,
+        155,
+        214,
+        472
+      ],
+      "center_xy": [
+        107.22,
+        322.45
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.594
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.496
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.421
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

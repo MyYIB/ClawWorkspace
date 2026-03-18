@@ -1,0 +1,12 @@
+{
+  "image_id": "wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

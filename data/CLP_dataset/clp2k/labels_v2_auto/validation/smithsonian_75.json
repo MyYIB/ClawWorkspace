@@ -1,0 +1,140 @@
+{
+  "image_id": "smithsonian_75",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/smithsonian_75.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/smithsonian_75_inst_1.png",
+      "bbox_xyxy": [
+        52,
+        247,
+        236,
+        511
+      ],
+      "center_xy": [
+        139.32,
+        411.43
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/smithsonian_75_inst_2.png",
+      "bbox_xyxy": [
+        381,
+        415,
+        456,
+        511
+      ],
+      "center_xy": [
+        428.29,
+        472.28
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/smithsonian_75_inst_3.png",
+      "bbox_xyxy": [
+        246,
+        436,
+        366,
+        511
+      ],
+      "center_xy": [
+        306.96,
+        481.13
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/smithsonian_75_inst_4.png",
+      "bbox_xyxy": [
+        141,
+        237,
+        511,
+        511
+      ],
+      "center_xy": [
+        346.79,
+        358.56
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/smithsonian_75_inst_5.png",
+      "bbox_xyxy": [
+        55,
+        238,
+        139,
+        407
+      ],
+      "center_xy": [
+        87.75,
+        324.74
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 6,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/smithsonian_75_inst_6.png",
+      "bbox_xyxy": [
+        83,
+        494,
+        168,
+        511
+      ],
+      "center_xy": [
+        123.02,
+        504.45
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.57
+    },
+    {
+      "a_id": 6,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.567
+    },
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.519
+    },
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.508
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.466
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

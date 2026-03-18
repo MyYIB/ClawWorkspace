@@ -1,0 +1,77 @@
+{
+  "image_id": "where-truth-lies_7",
+  "image_path": "data/CLP_dataset/clp2k/images/training/where-truth-lies_7.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_7_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        111,
+        280,
+        511
+      ],
+      "center_xy": [
+        81.35,
+        345.84
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_7_inst_2.png",
+      "bbox_xyxy": [
+        318,
+        355,
+        466,
+        511
+      ],
+      "center_xy": [
+        397.13,
+        430.95
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_7_inst_3.png",
+      "bbox_xyxy": [
+        346,
+        360,
+        511,
+        511
+      ],
+      "center_xy": [
+        450.76,
+        461.21
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/where-truth-lies_7_inst_4.png",
+      "bbox_xyxy": [
+        129,
+        303,
+        511,
+        511
+      ],
+      "center_xy": [
+        295.29,
+        380.69
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

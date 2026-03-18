@@ -1,0 +1,77 @@
+{
+  "image_id": "met_96",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_96.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_96_inst_1.png",
+      "bbox_xyxy": [
+        25,
+        446,
+        225,
+        511
+      ],
+      "center_xy": [
+        108.37,
+        477.75
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_96_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        33,
+        511,
+        511
+      ],
+      "center_xy": [
+        276.53,
+        294.66
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_96_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        392,
+        53,
+        511
+      ],
+      "center_xy": [
+        18.99,
+        468.01
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_96_inst_4.png",
+      "bbox_xyxy": [
+        77,
+        471,
+        168,
+        511
+      ],
+      "center_xy": [
+        117.33,
+        495.53
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

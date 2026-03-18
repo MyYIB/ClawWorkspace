@@ -1,0 +1,74 @@
+{
+  "image_id": "smithsonian_163",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_163.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_163_inst_1.png",
+      "bbox_xyxy": [
+        97,
+        0,
+        492,
+        445
+      ],
+      "center_xy": [
+        357.57,
+        173.31
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_163_inst_2.png",
+      "bbox_xyxy": [
+        199,
+        304,
+        322,
+        394
+      ],
+      "center_xy": [
+        263.55,
+        350.69
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_163_inst_3.png",
+      "bbox_xyxy": [
+        20,
+        275,
+        492,
+        511
+      ],
+      "center_xy": [
+        212.44,
+        423.47
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.834
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.667
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

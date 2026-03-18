@@ -1,0 +1,30 @@
+{
+  "image_id": "demo_000001",
+  "image_path": "data/raw/demo_000001.jpg",
+  "width": 2048,
+  "height": 1024,
+
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/masks/demo_000001_inst_1.png",
+      "bbox_xyxy": [210, 180, 980, 860],
+      "center_xy": [595, 520],
+      "san_yuan_level": "mid"
+    }
+  ],
+
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B"
+    }
+  ],
+
+  "anchors": {
+    "near_mid_boundary": [[90, 700], [980, 650], [1870, 680]],
+    "mid_far_boundary": [[70, 500], [960, 470], [1860, 520]]
+  }
+}

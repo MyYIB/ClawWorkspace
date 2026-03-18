@@ -1,0 +1,154 @@
+{
+  "image_id": "dong-yuan_xiao-xiang_3",
+  "image_path": "data/CLP_dataset/clp2k/images/training/dong-yuan_xiao-xiang_3.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/dong-yuan_xiao-xiang_3_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        232,
+        511,
+        511
+      ],
+      "center_xy": [
+        249.81,
+        389.07
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/dong-yuan_xiao-xiang_3_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        97,
+        511,
+        283
+      ],
+      "center_xy": [
+        186.22,
+        195.18
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/dong-yuan_xiao-xiang_3_inst_3.png",
+      "bbox_xyxy": [
+        133,
+        315,
+        511,
+        355
+      ],
+      "center_xy": [
+        346.84,
+        333.18
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/dong-yuan_xiao-xiang_3_inst_4.png",
+      "bbox_xyxy": [
+        316,
+        407,
+        511,
+        448
+      ],
+      "center_xy": [
+        418.48,
+        423.36
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/dong-yuan_xiao-xiang_3_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        212
+      ],
+      "center_xy": [
+        296.09,
+        76.06
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.956
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.873
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.66
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.643
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.525
+    },
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.43
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.348
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.295
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.23
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

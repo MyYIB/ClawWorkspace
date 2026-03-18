@@ -1,0 +1,198 @@
+{
+  "image_id": "harvard_10",
+  "image_path": "data/CLP_dataset/clp2k/images/training/harvard_10.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_10_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        5,
+        506,
+        511
+      ],
+      "center_xy": [
+        253.32,
+        280.91
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_10_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        476
+      ],
+      "center_xy": [
+        213.19,
+        125.01
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_10_inst_3.png",
+      "bbox_xyxy": [
+        97,
+        315,
+        129,
+        402
+      ],
+      "center_xy": [
+        114.66,
+        358.25
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_10_inst_4.png",
+      "bbox_xyxy": [
+        439,
+        354,
+        511,
+        511
+      ],
+      "center_xy": [
+        477.73,
+        439.24
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_10_inst_5.png",
+      "bbox_xyxy": [
+        348,
+        449,
+        409,
+        511
+      ],
+      "center_xy": [
+        383.19,
+        491.0
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_10_inst_6.png",
+      "bbox_xyxy": [
+        226,
+        483,
+        302,
+        511
+      ],
+      "center_xy": [
+        265.58,
+        499.95
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "waterfall",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/harvard_10_inst_7.png",
+      "bbox_xyxy": [
+        400,
+        271,
+        437,
+        511
+      ],
+      "center_xy": [
+        425.13,
+        389.8
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 6,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.716
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.707
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.63
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.58
+    },
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.542
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.533
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.456
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.406
+    },
+    {
+      "a_id": 7,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.367
+    },
+    {
+      "a_id": 6,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.349
+    },
+    {
+      "a_id": 5,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.34
+    },
+    {
+      "a_id": 1,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.263
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

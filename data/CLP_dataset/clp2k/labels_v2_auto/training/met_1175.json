@@ -1,0 +1,45 @@
+{
+  "image_id": "met_1175",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_1175.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1175_inst_1.png",
+      "bbox_xyxy": [
+        21,
+        364,
+        98,
+        511
+      ],
+      "center_xy": [
+        49.02,
+        442.65
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1175_inst_2.png",
+      "bbox_xyxy": [
+        16,
+        13,
+        497,
+        511
+      ],
+      "center_xy": [
+        252.64,
+        283.06
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

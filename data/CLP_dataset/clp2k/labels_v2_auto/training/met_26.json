@@ -1,0 +1,52 @@
+{
+  "image_id": "met_26",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_26.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_26_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        242,
+        511,
+        511
+      ],
+      "center_xy": [
+        351.0,
+        425.61
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_26_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        4,
+        511,
+        496
+      ],
+      "center_xy": [
+        213.23,
+        233.65
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.531
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

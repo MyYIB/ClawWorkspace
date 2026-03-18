@@ -1,0 +1,102 @@
+{
+  "image_id": "smithsonian_167",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_167.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_167_inst_1.png",
+      "bbox_xyxy": [
+        16,
+        195,
+        492,
+        511
+      ],
+      "center_xy": [
+        283.44,
+        392.62
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_167_inst_2.png",
+      "bbox_xyxy": [
+        175,
+        140,
+        419,
+        442
+      ],
+      "center_xy": [
+        256.0,
+        274.67
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_167_inst_3.png",
+      "bbox_xyxy": [
+        300,
+        442,
+        385,
+        511
+      ],
+      "center_xy": [
+        352.61,
+        490.97
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_167_inst_4.png",
+      "bbox_xyxy": [
+        16,
+        103,
+        491,
+        391
+      ],
+      "center_xy": [
+        214.73,
+        215.32
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.723
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.656
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.586
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.519
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

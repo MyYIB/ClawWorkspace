@@ -1,0 +1,130 @@
+{
+  "image_id": "met_1181",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/met_1181.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_1181_inst_1.png",
+      "bbox_xyxy": [
+        165,
+        191,
+        453,
+        511
+      ],
+      "center_xy": [
+        318.8,
+        366.06
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_1181_inst_2.png",
+      "bbox_xyxy": [
+        21,
+        298,
+        158,
+        511
+      ],
+      "center_xy": [
+        75.75,
+        390.38
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_1181_inst_3.png",
+      "bbox_xyxy": [
+        309,
+        166,
+        445,
+        214
+      ],
+      "center_xy": [
+        376.51,
+        183.89
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_1181_inst_4.png",
+      "bbox_xyxy": [
+        16,
+        20,
+        162,
+        313
+      ],
+      "center_xy": [
+        78.04,
+        175.74
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 5,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_1181_inst_5.png",
+      "bbox_xyxy": [
+        386,
+        297,
+        490,
+        511
+      ],
+      "center_xy": [
+        450.6,
+        421.02
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.957
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.905
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.862
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.778
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

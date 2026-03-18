@@ -1,0 +1,29 @@
+{
+  "image_id": "met_154",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/met_154.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_154_inst_1.png",
+      "bbox_xyxy": [
+        27,
+        45,
+        510,
+        511
+      ],
+      "center_xy": [
+        345.26,
+        319.87
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}

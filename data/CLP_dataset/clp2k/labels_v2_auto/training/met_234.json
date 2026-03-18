@@ -1,0 +1,170 @@
+{
+  "image_id": "met_234",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_234.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_234_inst_1.png",
+      "bbox_xyxy": [
+        51,
+        0,
+        487,
+        511
+      ],
+      "center_xy": [
+        319.57,
+        290.96
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_234_inst_2.png",
+      "bbox_xyxy": [
+        28,
+        0,
+        258,
+        511
+      ],
+      "center_xy": [
+        114.11,
+        180.94
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "boat",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_234_inst_3.png",
+      "bbox_xyxy": [
+        172,
+        271,
+        363,
+        337
+      ],
+      "center_xy": [
+        249.78,
+        306.45
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_234_inst_4.png",
+      "bbox_xyxy": [
+        218,
+        270,
+        241,
+        293
+      ],
+      "center_xy": [
+        228.89,
+        280.48
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 5,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_234_inst_5.png",
+      "bbox_xyxy": [
+        280,
+        288,
+        324,
+        324
+      ],
+      "center_xy": [
+        300.22,
+        308.69
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 6,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_234_inst_6.png",
+      "bbox_xyxy": [
+        321,
+        0,
+        478,
+        38
+      ],
+      "center_xy": [
+        425.19,
+        14.01
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.95
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.793
+    },
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.654
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.646
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.541
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.251
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  }
+}
