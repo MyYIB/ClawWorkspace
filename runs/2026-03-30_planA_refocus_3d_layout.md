@@ -66,3 +66,25 @@ python projects/SanYuan-LayoutNet/scripts/train.py \
 ### 观察
 - 训练链路已跑通，损失稳定下降。
 - `depth/occ` 近似 0：当前弱监督关系标签过于简化，下一步需替换为真实对象关系标注/更难负样本构造。
+
+## Smoke Training v2（labels_v2_auto, 不使用 anchors, 2026-03-30）
+### 调整
+- 数据集切换为：`data/CLP_dataset/clp2k/labels_v2_auto`
+- 训练输入明确不使用 `anchors`
+- 数据读取优先 `instances + depth_pairs`
+
+### 命令
+```bash
+$env:PYTHONPATH='projects/SanYuan-LayoutNet'; \
+python projects/SanYuan-LayoutNet/scripts/train.py \
+  --config projects/SanYuan-LayoutNet/configs/planA_smoke_auto.yaml
+```
+
+### 结果（3 epoch）
+- epoch1: total=0.47968, proj=0.06688, depth=0.18460, occ=0.31707
+- epoch2: total=0.30293, proj=0.02756, depth=0.08688, occ=0.27306
+- epoch3: total=0.28589, proj=0.02134, depth=0.07904, occ=0.27474
+
+### 结论
+- 与上一轮（`labels_v2` 空标签）相比，这一轮 `depth/occ` 不再为 0，说明关系监督已真实生效。
+- 下一步可优先扩大你已人工核验 `depth_pairs` 的样本比例，提升深度关系学习质量。
