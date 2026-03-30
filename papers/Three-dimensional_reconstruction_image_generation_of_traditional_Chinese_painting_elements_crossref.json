@@ -1,0 +1,779 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "indexed":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2025,
+                                                           11,
+                                                           27
+                                                       ]
+                                                   ],
+                                    "date-time":  "2025-11-27T00:21:59Z",
+                                    "timestamp":  1764202919197,
+                                    "version":  "3.46.0"
+                                },
+                    "reference-count":  47,
+                    "publisher":  "Elsevier BV",
+                    "license":  [
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-01T00:00:00Z",
+                                                      "timestamp":  1759276800000
+                                                  },
+                                        "content-version":  "tdm",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://www.elsevier.com/tdm/userlicense/1.0/"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-01T00:00:00Z",
+                                                      "timestamp":  1759276800000
+                                                  },
+                                        "content-version":  "tdm",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://www.elsevier.com/legal/tdmrep-license"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-01T00:00:00Z",
+                                                      "timestamp":  1759276800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-017"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-01T00:00:00Z",
+                                                      "timestamp":  1759276800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-037"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-01T00:00:00Z",
+                                                      "timestamp":  1759276800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-012"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-01T00:00:00Z",
+                                                      "timestamp":  1759276800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-029"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2025,
+                                                                             10,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2025-10-01T00:00:00Z",
+                                                      "timestamp":  1759276800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-004"
+                                    }
+                                ],
+                    "funder":  [
+                                   {
+                                       "DOI":  "10.13039/501100002855",
+                                       "name":  "Ministry of Science and Technology of the People\u0027s Republic of China",
+                                       "doi-asserted-by":  "publisher",
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/501100002855",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   },
+                                   {
+                                       "DOI":  "10.13039/501100001809",
+                                       "name":  "National Natural Science Foundation of China",
+                                       "doi-asserted-by":  "publisher",
+                                       "award":  [
+                                                     "62072362",
+                                                     "62471390",
+                                                     "62306237"
+                                                 ],
+                                       "award-info":  [
+                                                          {
+                                                              "award-number":  [
+                                                                                   "62072362",
+                                                                                   "62471390",
+                                                                                   "62306237"
+                                                                               ]
+                                                          }
+                                                      ],
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/501100001809",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   },
+                                   {
+                                       "DOI":  "10.13039/501100015401",
+                                       "name":  "Shaanxi Province Key Research and Development Projects",
+                                       "doi-asserted-by":  "publisher",
+                                       "award":  [
+                                                     "2024GX-YBXM-149"
+                                                 ],
+                                       "award-info":  [
+                                                          {
+                                                              "award-number":  [
+                                                                                   "2024GX-YBXM-149"
+                                                                               ]
+                                                          }
+                                                      ],
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/501100015401",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   },
+                                   {
+                                       "DOI":  "10.13039/501100004194",
+                                       "name":  "Northwest University",
+                                       "doi-asserted-by":  "publisher",
+                                       "award":  [
+                                                     "CX2024204",
+                                                     "CX2024206"
+                                                 ],
+                                       "award-info":  [
+                                                          {
+                                                              "award-number":  [
+                                                                                   "CX2024204",
+                                                                                   "CX2024206"
+                                                                               ]
+                                                          }
+                                                      ],
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/501100004194",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   },
+                                   {
+                                       "DOI":  "10.13039/501100012165",
+                                       "name":  "Key Technologies Research and Development Program",
+                                       "doi-asserted-by":  "publisher",
+                                       "award":  [
+                                                     "2023YFF0715103"
+                                                 ],
+                                       "award-info":  [
+                                                          {
+                                                              "award-number":  [
+                                                                                   "2023YFF0715103"
+                                                                               ]
+                                                          }
+                                                      ],
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/501100012165",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   },
+                                   {
+                                       "DOI":  "10.13039/501100007128",
+                                       "name":  "Natural Science Foundation of Shaanxi Province",
+                                       "doi-asserted-by":  "publisher",
+                                       "award":  [
+                                                     "2023-JC-QN-0750"
+                                                 ],
+                                       "award-info":  [
+                                                          {
+                                                              "award-number":  [
+                                                                                   "2023-JC-QN-0750"
+                                                                               ]
+                                                          }
+                                                      ],
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/501100007128",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   }
+                               ],
+                    "content-domain":  {
+                                           "domain":  [
+                                                          "elsevier.com",
+                                                          "sciencedirect.com"
+                                                      ],
+                                           "crossmark-restriction":  true
+                                       },
+                    "short-container-title":  [
+                                                  "Engineering Applications of Artificial Intelligence"
+                                              ],
+                    "published-print":  {
+                                            "date-parts":  [
+                                                               [
+                                                                   2025,
+                                                                   10
+                                                               ]
+                                                           ]
+                                        },
+                    "DOI":  "10.1016/j.engappai.2025.111417",
+                    "type":  "journal-article",
+                    "created":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2025,
+                                                           6,
+                                                           24
+                                                       ]
+                                                   ],
+                                    "date-time":  "2025-06-24T02:49:31Z",
+                                    "timestamp":  1750733371000
+                                },
+                    "page":  "111417",
+                    "update-policy":  "https://doi.org/10.1016/elsevier_cm_policy",
+                    "source":  "Crossref",
+                    "is-referenced-by-count":  0,
+                    "special_numbering":  "PA",
+                    "title":  [
+                                  "Three-dimensional reconstruction image generation of traditional Chinese painting elements"
+                              ],
+                    "prefix":  "10.1016",
+                    "volume":  "158",
+                    "author":  [
+                                   {
+                                       "ORCID":  "https://orcid.org/0000-0002-4260-1168",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Qiyao",
+                                       "family":  "Hu",
+                                       "sequence":  "first",
+                                       "affiliation":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "ORCID":  "https://orcid.org/0009-0009-4976-0151",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Jingyu",
+                                       "family":  "Wang",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "given":  "Xianlin",
+                                       "family":  "Peng",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "given":  "Tengfei",
+                                       "family":  "Li",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "ORCID":  "https://orcid.org/0000-0001-6279-2267",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Rui",
+                                       "family":  "Cao",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ]
+                                   }
+                               ],
+                    "member":  "78",
+                    "reference":  [
+                                      {
+                                          "year":  "2015",
+                                          "series-title":  "ShapeNet: An information-rich 3D model repository",
+                                          "author":  "Chang",
+                                          "key":  "10.1016/j.engappai.2025.111417_b1"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b2",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Charles, R.Q., Su, H., Kaichun, M., Guibas, L.J., 2017. PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. In: 2017 IEEE Conference on Computer Vision and Pattern Recognition. CVPR, pp. 77–85.",
+                                          "DOI":  "10.1109/CVPR.2017.16"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b3",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Chen, A., Xu, Z., Zhao, F., Zhang, X., Xiang, F., Yu, J., Su, H., 2021. MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo. In: 2021 IEEE/CVF International Conference on Computer Vision. ICCV, pp. 14104–14113.",
+                                          "DOI":  "10.1109/ICCV48922.2021.01386"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b4",
+                                          "series-title":  "Computer Vision – ECCV 2016",
+                                          "first-page":  "628",
+                                          "article-title":  "3D-r2n2: A unified approach for single and multi-view 3D object reconstruction",
+                                          "author":  "Choy",
+                                          "year":  "2016"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b5",
+                                          "series-title":  "Advances in Neural Information Processing Systems",
+                                          "first-page":  "35799",
+                                          "article-title":  "Objaverse-XL: A universe of 10m+ 3D objects",
+                                          "volume":  "36",
+                                          "author":  "Deitke",
+                                          "year":  "2023"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b6",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Deitke, M., Schwenk, D., Salvador, J., Weihs, L., Michel, O., VanderBilt, E., Schmidt, L., Ehsanit, K., Kembhavi, A., Farhadi, A., 2023b. Objaverse: A Universe of Annotated 3D Objects. In: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 13142–13153.",
+                                          "DOI":  "10.1109/CVPR52729.2023.01263"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b7",
+                                          "series-title":  "Advances in Neural Information Processing Systems 35: Annual Conference on Neural Information Processing Systems 2022",
+                                          "article-title":  "GET3D: a generative model of high quality 3D textured shapes learned from images",
+                                          "author":  "Gao",
+                                          "year":  "2022"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b8",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1109/TCSVT.2024.3385360",
+                                          "article-title":  "Depth-guided robust point cloud fusion NeRF for sparse input views",
+                                          "author":  "Guo",
+                                          "year":  "2024",
+                                          "journal-title":  "IEEE Trans. Circuits Syst. Video Technol."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b9",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Hong, Y., Zhang, K., Gu, J., Bi, S., Zhou, Y., Liu, D., Liu, F., Sunkavalli, K., Bui, T., Tan, H., 2024. LRM: Large Reconstruction Model for Single Image to 3D. In: The Twelfth International Conference on Learning Representations.",
+                                          "DOI":  "10.1007/978-3-031-72670-5_1"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b10",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Kemelmacher-Shlizerman, I., 2013. Internet Based Morphable Model. In: 2013 IEEE International Conference on Computer Vision. pp. 3256–3263.",
+                                          "DOI":  "10.1109/ICCV.2013.404"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b11",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., Xiao, T., Whitehead, S., Berg, A.C., Lo, W.-Y., Dollár, P., Girshick, R.B., 2023. Segment Anything. In: 2023 IEEE/CVF International Conference on Computer Vision. ICCV, pp. 3992–4003.",
+                                          "DOI":  "10.1109/ICCV51070.2023.00371"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b12",
+                                          "unstructured":  "Li, J., Tan, H., Zhang, K., Xu, Z., Luan, F., Xu, Y., Hong, Y., Sunkavalli, K., Shakhnarovich, G., Bi, S., 2024. Instant3D: Fast Text-to-3D with Sparse-view Generation and Large Reconstruction Model. In: The Twelfth International Conference on Learning Representations."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b13",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Lin, C.-H., Gao, J., Tang, L., Takikawa, T., Zeng, X., Huang, X., Kreis, K., Fidler, S., Liu, M.-Y., Lin, T.-Y., 2023. Magic3D: High-Resolution Text-to-3D Content Creation. In: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 300–309.",
+                                          "DOI":  "10.1109/CVPR52729.2023.00037"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b14",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Liu, S., Giles, L., Ororbia, A., 2018. Learning a Hierarchical Latent-Variable Model of 3D Shapes. In: 2018 International Conference on 3D Vision. 3DV, pp. 542–551.",
+                                          "DOI":  "10.1109/3DV.2018.00068"
+                                      },
+                                      {
+                                          "year":  "2023",
+                                          "series-title":  "One-2-3-45++: Fast Single Image to 3D Objects with Consistent Multi-View Generation and 3D Diffusion",
+                                          "author":  "Liu",
+                                          "key":  "10.1016/j.engappai.2025.111417_b15"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b16",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Liu, M., Sung, M., Mech, R., Su, H., 2021. DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates. In: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 12–21.",
+                                          "DOI":  "10.1109/CVPR46437.2021.00008"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b17",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Liu, R., Wu, R., Hoorick, B.V., Tokmakov, P., Zakharov, S., Vondrick, C., 2023a. Zero-1-to-3: Zero-shot One Image to 3D Object. In: 2023 IEEE/CVF International Conference on Computer Vision. ICCV, pp. 9264–9275.",
+                                          "DOI":  "10.1109/ICCV51070.2023.00853"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b18",
+                                          "first-page":  "22226",
+                                          "article-title":  "One-2-3-45: Any single image to 3D mesh in 45 seconds without per-shape optimization",
+                                          "volume":  "vol. 36",
+                                          "author":  "Liu",
+                                          "year":  "2023"
+                                      },
+                                      {
+                                          "year":  "2023",
+                                          "series-title":  "Wonder3D: Single image to 3D using cross-domain diffusion",
+                                          "author":  "Long",
+                                          "key":  "10.1016/j.engappai.2025.111417_b19"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b20",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "1",
+                                          "DOI":  "10.1145/3306346.3322980",
+                                          "article-title":  "Local light field fusion",
+                                          "volume":  "38",
+                                          "author":  "Mildenhall",
+                                          "year":  "2019",
+                                          "journal-title":  "ACM Trans. Graph."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b21",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Niemeyer, M., Barron, J.T., Mildenhall, B., Sajjadi, M.S.M., Geiger, A., Radwan, N., 2022. RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs. In: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 5470–5480.",
+                                          "DOI":  "10.1109/CVPR52688.2022.00540"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b22",
+                                          "unstructured":  "Poole, B., Jain, A., Barron, J.T., Mildenhall, B., 2023. DreamFusion: Text-to-3D using 2D Diffusion. In: The Eleventh International Conference on Learning Representations."
+                                      },
+                                      {
+                                          "year":  "2023",
+                                          "series-title":  "Magic123: One image to high-quality 3D object generation using both 2D and 3D diffusion priors",
+                                          "author":  "Qian",
+                                          "key":  "10.1016/j.engappai.2025.111417_b23"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b24",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "1943",
+                                          "DOI":  "10.1109/TMM.2021.3074240",
+                                          "article-title":  "Geometric back-projection network for point cloud classification",
+                                          "volume":  "24",
+                                          "author":  "Qiu",
+                                          "year":  "2019",
+                                          "journal-title":  "IEEE Trans. Multimed."
+                                      },
+                                      {
+                                          "year":  "2023",
+                                          "series-title":  "NeRFMeshing: Distilling neural radiance fields into geometrically-accurate 3D meshes",
+                                          "author":  "Rakotosaona",
+                                          "key":  "10.1016/j.engappai.2025.111417_b25"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b26",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Rombach, R., Blattmann, A., Lorenz, D., Esser, P., Ommer, B., 2021. High-Resolution Image Synthesis with Latent Diffusion Models. In: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 10674–10685.",
+                                          "DOI":  "10.1109/CVPR52688.2022.01042"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b27",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Rosu, R.A., Behnke, S., 2023. PermutoSDF: Fast Multi-View Reconstruction with Implicit Surfaces Using Permutohedral Lattices. In: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 8466–8475.",
+                                          "DOI":  "10.1109/CVPR52729.2023.00818"
+                                      },
+                                      {
+                                          "year":  "2022",
+                                          "series-title":  "Photorealistic text-to-image diffusion models with deep language understanding",
+                                          "author":  "Saharia",
+                                          "key":  "10.1016/j.engappai.2025.111417_b28"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b29",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Schönberger, J.L., Frahm, J.-M., 2016. Structure-from-Motion Revisited. In: 2016 IEEE Conference on Computer Vision and Pattern Recognition. CVPR, pp. 4104–4113.",
+                                          "DOI":  "10.1109/CVPR.2016.445"
+                                      },
+                                      {
+                                          "year":  "2023",
+                                          "series-title":  "Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model",
+                                          "author":  "Shi",
+                                          "key":  "10.1016/j.engappai.2025.111417_b30"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b31",
+                                          "unstructured":  "Shi, Y., Wang, P., Ye, J., Mai, L., Li, K., Yang, X., 2024. MVDream: Multi-view Diffusion for 3D Generation. In: The Twelfth International Conference on Learning Representations."
+                                      },
+                                      {
+                                          "year":  "2023",
+                                          "series-title":  "ZeroRF: Fast Sparse View 360° Reconstruction with Zero Pretraining",
+                                          "author":  "Shi",
+                                          "key":  "10.1016/j.engappai.2025.111417_b32"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b33",
+                                          "series-title":  "Proceedings of the 36th International Conference on Machine Learning",
+                                          "first-page":  "5866",
+                                          "article-title":  "GEOMetrics: Exploiting geometric structure for graph-encoded objects",
+                                          "volume":  "97",
+                                          "author":  "Smith",
+                                          "year":  "2019"
+                                      },
+                                      {
+                                          "year":  "2023",
+                                          "series-title":  "DreamGaussian: Generative Gaussian splatting for efficient 3D content creation",
+                                          "author":  "Tang",
+                                          "key":  "10.1016/j.engappai.2025.111417_b34"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b35",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Tang, J., Wang, T., Zhang, B., Zhang, T., Yi, R., Ma, L., Chen, D., 2023b. Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior. In: 2023 IEEE/CVF International Conference on Computer Vision. ICCV, pp. 22762–22772.",
+                                          "DOI":  "10.1109/ICCV51070.2023.02086"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b36",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Tang, J., Zhou, H., Chen, X., Hu, T., Ding, E., Wang, J., Zeng, G., 2023c. Delicate Textured Mesh Recovery from NeRF via Adaptive Surface Refinement. In: 2023 IEEE/CVF International Conference on Computer Vision. ICCV, pp. 17693–17703.",
+                                          "DOI":  "10.1109/ICCV51070.2023.01626"
+                                      },
+                                      {
+                                          "year":  "2024",
+                                          "series-title":  "SV3D: Novel multi-view synthesis and 3D generation from a single image using latent video diffusion",
+                                          "author":  "Voleti",
+                                          "key":  "10.1016/j.engappai.2025.111417_b37"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b38",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Wang, G., Chen, Z., Loy, C.C., Liu, Z., 2023a. SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis. In: 2023 IEEE/CVF International Conference on Computer Vision. ICCV, pp. 9031–9042.",
+                                          "DOI":  "10.1109/ICCV51070.2023.00832"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b39",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Wang, H., Du, X., Li, J., Yeh, R.A., Shakhnarovich, G., 2023b. Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation. In: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 12619–12629.",
+                                          "DOI":  "10.1109/CVPR52729.2023.01214"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b40",
+                                          "unstructured":  "Wang, P., Tan, H., Bi, S., Xu, Y., Luan, F., Sunkavalli, K., Wang, W., Xu, Z., Zhang, K., 2024. PF-LRM: Pose-Free Large Reconstruction Model for Joint Pose and Shape Prediction. In: The Twelfth International Conference on Learning Representations."
+                                      },
+                                      {
+                                          "issue":  "10",
+                                          "key":  "10.1016/j.engappai.2025.111417_b41",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "3600",
+                                          "DOI":  "10.1109/TPAMI.2020.2984232",
+                                          "article-title":  "Pixel2Mesh: 3D mesh model generation via image guided deformation",
+                                          "volume":  "43",
+                                          "author":  "Wang",
+                                          "year":  "2021",
+                                          "journal-title":  "IEEE Trans. Pattern Anal. Mach. Intell."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b42",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Wu, T., Zhang, J., Fu, X., Wang, Y., Ren, J., Pan, L., Wu, W., Yang, L., Wang, J., Qian, C., Lin, D., Liu, Z., 2023. OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation. In: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). pp. 803–814.",
+                                          "DOI":  "10.1109/CVPR52729.2023.00084"
+                                      },
+                                      {
+                                          "year":  "2024",
+                                          "series-title":  "InstantMesh: Efficient 3D mesh generation from a single image with sparse-view large reconstruction models",
+                                          "author":  "Xu",
+                                          "key":  "10.1016/j.engappai.2025.111417_b43"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b44",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Yang, Y., Feng, C., Shen, Y., Tian, D., 2018. FoldingNet: Point Cloud Auto-Encoder via Deep Grid Deformation. In: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 206–215.",
+                                          "DOI":  "10.1109/CVPR.2018.00029"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b45",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Yang, B., Wen, H., Wang, S., Clark, R., Markham, A., Trigoni, N., 2017. 3D Object Reconstruction from a Single Depth View with Adversarial Learning. In: 2017 IEEE International Conference on Computer Vision Workshops. ICCVW, pp. 679–688.",
+                                          "DOI":  "10.1109/ICCVW.2017.86"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b46",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "67",
+                                          "DOI":  "10.1016/j.neucom.2016.11.062",
+                                          "article-title":  "Learning 3D faces from 2D images via stacked contractive autoencoder",
+                                          "volume":  "257",
+                                          "author":  "Zhang",
+                                          "year":  "2017",
+                                          "journal-title":  "Neurocomputing"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.engappai.2025.111417_b47",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Zhou, Z., Tulsiani, S., 2023. SparseFusion: Distilling View-Conditioned Diffusion for 3D Reconstruction. In: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. CVPR, pp. 12588–12597.",
+                                          "DOI":  "10.1109/CVPR52729.2023.01211"
+                                      }
+                                  ],
+                    "container-title":  [
+                                            "Engineering Applications of Artificial Intelligence"
+                                        ],
+                    "original-title":  [
+
+                                       ],
+                    "language":  "en",
+                    "link":  [
+                                 {
+                                     "URL":  "https://api.elsevier.com/content/article/PII:S0952197625014198?httpAccept=text/xml",
+                                     "content-type":  "text/xml",
+                                     "content-version":  "vor",
+                                     "intended-application":  "text-mining"
+                                 },
+                                 {
+                                     "URL":  "https://api.elsevier.com/content/article/PII:S0952197625014198?httpAccept=text/plain",
+                                     "content-type":  "text/plain",
+                                     "content-version":  "vor",
+                                     "intended-application":  "text-mining"
+                                 }
+                             ],
+                    "deposited":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2025,
+                                                             11,
+                                                             27
+                                                         ]
+                                                     ],
+                                      "date-time":  "2025-11-27T00:18:06Z",
+                                      "timestamp":  1764202686000
+                                  },
+                    "score":  1,
+                    "resource":  {
+                                     "primary":  {
+                                                     "URL":  "https://linkinghub.elsevier.com/retrieve/pii/S0952197625014198"
+                                                 }
+                                 },
+                    "subtitle":  [
+
+                                 ],
+                    "short-title":  [
+
+                                    ],
+                    "issued":  {
+                                   "date-parts":  [
+                                                      [
+                                                          2025,
+                                                          10
+                                                      ]
+                                                  ]
+                               },
+                    "references-count":  47,
+                    "alternative-id":  [
+                                           "S0952197625014198"
+                                       ],
+                    "URL":  "https://doi.org/10.1016/j.engappai.2025.111417",
+                    "relation":  {
+
+                                 },
+                    "ISSN":  [
+                                 "0952-1976"
+                             ],
+                    "issn-type":  [
+                                      {
+                                          "type":  "print",
+                                          "value":  "0952-1976"
+                                      }
+                                  ],
+                    "subject":  [
+
+                                ],
+                    "published":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2025,
+                                                             10
+                                                         ]
+                                                     ]
+                                  },
+                    "assertion":  [
+                                      {
+                                          "value":  "Elsevier",
+                                          "name":  "publisher",
+                                          "label":  "This article is maintained by"
+                                      },
+                                      {
+                                          "value":  "Three-dimensional reconstruction image generation of traditional Chinese painting elements",
+                                          "name":  "articletitle",
+                                          "label":  "Article Title"
+                                      },
+                                      {
+                                          "value":  "Engineering Applications of Artificial Intelligence",
+                                          "name":  "journaltitle",
+                                          "label":  "Journal Title"
+                                      },
+                                      {
+                                          "value":  "https://doi.org/10.1016/j.engappai.2025.111417",
+                                          "name":  "articlelink",
+                                          "label":  "CrossRef DOI link to publisher maintained version"
+                                      },
+                                      {
+                                          "value":  "article",
+                                          "name":  "content_type",
+                                          "label":  "Content Type"
+                                      },
+                                      {
+                                          "value":  "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+                                          "name":  "copyright",
+                                          "label":  "Copyright"
+                                      }
+                                  ],
+                    "article-number":  "111417"
+                }
+}
