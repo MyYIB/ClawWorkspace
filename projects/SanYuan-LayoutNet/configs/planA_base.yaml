@@ -5,32 +5,33 @@ data:
   image_root: data/CLP_dataset/clp2k/images
   label_root: data/CLP_dataset/clp2k/labels_v2
   image_size: [768, 768]
-  num_workers: 4
+  num_workers: 2
+  max_objects: 32
+  min_objects: 1
 
 model:
-  name: PolylineLayoutNet
-  backbone: resnet34
-  num_samples_per_curve: 64
-  curve_hidden_dim: 256
-  mask_decoder_dim: 128
+  name: Object3DLayoutNet
+  d_model: 256
+  num_layers: 4
+  num_heads: 8
+  obj_feat_dim: 16
+  dropout: 0.1
 
 train:
-  batch_size: 8
-  epochs: 80
+  batch_size: 4
+  epochs: 30
   lr: 0.0002
   weight_decay: 0.01
-  amp: true
   grad_clip: 1.0
   log_interval: 20
-  val_interval: 1
 
 loss:
-  w_curve_l1: 2.0
-  w_curve_smooth: 0.2
-  w_order: 0.5
-  w_mask_ce: 1.0
-  w_mask_dice: 1.0
+  w_proj: 1.0
+  w_depth_rank: 0.7
+  w_occ: 0.5
+  w_rel: 0.3
+  w_sanyuan_prior: 0.1
 
 output:
-  dir: outputs/planA_base
-  save_topk: 3
+  dir: outputs/planA_v2_object3d
+  save_every: 1
