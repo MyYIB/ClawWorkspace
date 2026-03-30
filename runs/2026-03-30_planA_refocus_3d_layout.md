@@ -44,3 +44,25 @@
   - `L_proj/L_depth_rank/L_occ/L_rel/L_sanyuan_prior` 组合损失
 - 已重写 `src/engine/trainer.py` 与 `scripts/train.py` 对齐新输入输出。
 - 已执行语法检查：`python -m py_compile` 通过。
+
+## Smoke Training（2026-03-30）
+### 命令
+```bash
+$env:PYTHONPATH='projects/SanYuan-LayoutNet'; \
+python projects/SanYuan-LayoutNet/scripts/train.py \
+  --config projects/SanYuan-LayoutNet/configs/planA_smoke.yaml
+```
+
+### 结果（3 epoch）
+- epoch1: total=0.01150, proj=0.00535, depth=0.00000, occ=0.00000
+- epoch2: total=0.00354, proj=0.00183, depth=0.00000, occ=0.00000
+- epoch3: total=0.00210, proj=0.00102, depth=0.00000, occ=0.00000
+
+### 产出
+- checkpoint: `outputs/planA_v2_smoke/epoch_001.pt`
+- checkpoint: `outputs/planA_v2_smoke/epoch_002.pt`
+- checkpoint: `outputs/planA_v2_smoke/epoch_003.pt`
+
+### 观察
+- 训练链路已跑通，损失稳定下降。
+- `depth/occ` 近似 0：当前弱监督关系标签过于简化，下一步需替换为真实对象关系标注/更难负样本构造。
