@@ -182,19 +182,19 @@
       "a_id": 2,
       "b_id": 3,
       "relation": "A_front_B",
-      "confidence": 0.614
+      "confidence": 1
     },
     {
       "a_id": 4,
       "b_id": 3,
       "relation": "A_front_B",
-      "confidence": 0.599
+      "confidence": 1
     },
     {
       "a_id": 7,
       "b_id": 3,
       "relation": "A_front_B",
-      "confidence": 0.362
+      "confidence": 1
     },
     {
       "a_id": 2,
@@ -206,35 +206,41 @@
       "a_id": 4,
       "b_id": 1,
       "relation": "A_front_B",
-      "confidence": 0.313
+      "confidence": 1
     },
     {
       "a_id": 1,
       "b_id": 3,
       "relation": "A_front_B",
-      "confidence": 0.286
-    },
-    {
-      "a_id": 2,
-      "b_id": 7,
-      "relation": "A_front_B",
-      "confidence": 0.251
-    },
-    {
-      "a_id": 6,
-      "b_id": 5,
-      "relation": "A_front_B",
-      "confidence": 0.243
+      "confidence": 1
     },
     {
       "a_id": 4,
       "b_id": 7,
       "relation": "A_front_B",
-      "confidence": 0.237
+      "confidence": 1
     }
   ],
   "anchors": {
-    "near_mid_boundary": [],
-    "mid_far_boundary": []
+    "near_mid_boundary": [
+      [
+        2,
+        391
+      ],
+      [
+        501,
+        349
+      ]
+    ],
+    "mid_far_boundary": [
+      [
+        1,
+        508
+      ],
+      [
+        506,
+        511
+      ]
+    ]
   }
 }

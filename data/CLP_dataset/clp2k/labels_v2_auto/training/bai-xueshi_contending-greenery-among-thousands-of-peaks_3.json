@@ -102,7 +102,24 @@
     }
   ],
   "anchors": {
-    "near_mid_boundary": [],
+    "near_mid_boundary": [
+      [
+        4,
+        182
+      ],
+      [
+        510,
+        209
+      ],
+      [
+        0,
+        428
+      ],
+      [
+        510,
+        460
+      ]
+    ],
     "mid_far_boundary": []
   }
 }

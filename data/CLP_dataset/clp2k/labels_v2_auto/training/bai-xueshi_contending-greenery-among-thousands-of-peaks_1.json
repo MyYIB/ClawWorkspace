@@ -42,11 +42,29 @@
       "a_id": 1,
       "b_id": 2,
       "relation": "A_front_B",
-      "confidence": 0.606
+      "confidence": 1
     }
   ],
   "anchors": {
-    "near_mid_boundary": [],
-    "mid_far_boundary": []
+    "near_mid_boundary": [
+      [
+        0,
+        127
+      ],
+      [
+        512,
+        223
+      ]
+    ],
+    "mid_far_boundary": [
+      [
+        1,
+        509
+      ],
+      [
+        535,
+        510
+      ]
+    ]
   }
 }
