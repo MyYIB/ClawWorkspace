@@ -1,0 +1,61 @@
+{
+  "image_id": "harvard_78",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/harvard_78.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/harvard_78_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        108,
+        422
+      ],
+      "center_xy": [
+        31.38,
+        168.94
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/harvard_78_inst_2.png",
+      "bbox_xyxy": [
+        3,
+        0,
+        511,
+        511
+      ],
+      "center_xy": [
+        283.46,
+        260.15
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.851
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.518,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

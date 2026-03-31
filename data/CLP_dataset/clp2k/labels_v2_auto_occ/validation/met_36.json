@@ -1,0 +1,132 @@
+{
+  "image_id": "met_36",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/met_36.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_36_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        4,
+        275,
+        511
+      ],
+      "center_xy": [
+        95.04,
+        278.48
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_36_inst_2.png",
+      "bbox_xyxy": [
+        200,
+        153,
+        378,
+        298
+      ],
+      "center_xy": [
+        272.61,
+        239.2
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_36_inst_3.png",
+      "bbox_xyxy": [
+        83,
+        187,
+        302,
+        412
+      ],
+      "center_xy": [
+        184.57,
+        315.5
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/met_36_inst_4.png",
+      "bbox_xyxy": [
+        155,
+        113,
+        511,
+        511
+      ],
+      "center_xy": [
+        383.36,
+        308.93
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.634
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.51
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.401
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.233
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.478,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.521,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.523,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.534,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

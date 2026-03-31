@@ -1,0 +1,96 @@
+{
+  "image_id": "xiaoyuncun_qiushanxinglvtu_66",
+  "image_path": "data/CLP_dataset/clp2k/images/training/xiaoyuncun_qiushanxinglvtu_66.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xiaoyuncun_qiushanxinglvtu_66_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        511
+      ],
+      "center_xy": [
+        269.03,
+        275.75
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xiaoyuncun_qiushanxinglvtu_66_inst_2.png",
+      "bbox_xyxy": [
+        203,
+        70,
+        383,
+        225
+      ],
+      "center_xy": [
+        288.94,
+        141.55
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xiaoyuncun_qiushanxinglvtu_66_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        178,
+        196
+      ],
+      "center_xy": [
+        54.65,
+        69.83
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.247
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.493,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.503,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

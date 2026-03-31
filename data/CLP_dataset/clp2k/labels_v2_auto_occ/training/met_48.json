@@ -1,0 +1,228 @@
+{
+  "image_id": "met_48",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_48.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_48_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        485,
+        235,
+        511
+      ],
+      "center_xy": [
+        94.05,
+        499.76
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_48_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        146,
+        396,
+        511
+      ],
+      "center_xy": [
+        172.34,
+        357.63
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_48_inst_3.png",
+      "bbox_xyxy": [
+        342,
+        307,
+        511,
+        511
+      ],
+      "center_xy": [
+        459.46,
+        431.78
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_48_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        83,
+        511,
+        348
+      ],
+      "center_xy": [
+        312.52,
+        185.44
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 5,
+      "class": "waterfall",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_48_inst_5.png",
+      "bbox_xyxy": [
+        385,
+        365,
+        417,
+        434
+      ],
+      "center_xy": [
+        399.26,
+        393.23
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "waterfall",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_48_inst_6.png",
+      "bbox_xyxy": [
+        398,
+        393,
+        426,
+        471
+      ],
+      "center_xy": [
+        411.45,
+        433.03
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "waterfall",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_48_inst_7.png",
+      "bbox_xyxy": [
+        370,
+        450,
+        389,
+        492
+      ],
+      "center_xy": [
+        379.84,
+        470.7
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.744
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.693
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.657
+    },
+    {
+      "a_id": 7,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.546
+    },
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.469
+    },
+    {
+      "a_id": 6,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.429
+    },
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.419
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.383
+    },
+    {
+      "a_id": 1,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.314
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.274
+    },
+    {
+      "a_id": 7,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.271
+    },
+    {
+      "a_id": 2,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.263
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.61,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.467,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_occludes_B",
+      "confidence": 0.626,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 7,
+      "b_id": 5,
+      "relation": "A_occludes_B",
+      "confidence": 0.6,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "image_id": "smithsonian_380",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_380.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_1.png",
+      "bbox_xyxy": [
+        183,
+        217,
+        511,
+        511
+      ],
+      "center_xy": [
+        364.84,
+        368.06
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_2.png",
+      "bbox_xyxy": [
+        91,
+        408,
+        215,
+        511
+      ],
+      "center_xy": [
+        157.39,
+        466.97
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_3.png",
+      "bbox_xyxy": [
+        18,
+        67,
+        357,
+        434
+      ],
+      "center_xy": [
+        112.38,
+        260.58
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_4.png",
+      "bbox_xyxy": [
+        77,
+        79,
+        111,
+        130
+      ],
+      "center_xy": [
+        93.9,
+        105.47
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_5.png",
+      "bbox_xyxy": [
+        116,
+        349,
+        278,
+        511
+      ],
+      "center_xy": [
+        203.41,
+        423.61
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_6.png",
+      "bbox_xyxy": [
+        381,
+        355,
+        476,
+        511
+      ],
+      "center_xy": [
+        437.42,
+        446.53
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_7.png",
+      "bbox_xyxy": [
+        16,
+        379,
+        122,
+        511
+      ],
+      "center_xy": [
+        57.1,
+        458.14
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 8,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_380_inst_8.png",
+      "bbox_xyxy": [
+        147,
+        133,
+        511,
+        281
+      ],
+      "center_xy": [
+        342.19,
+        199.68
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 7,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 6,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 8,
+      "relation": "A_front_B",
+      "confidence": 0.845
+    },
+    {
+      "a_id": 7,
+      "b_id": 8,
+      "relation": "A_front_B",
+      "confidence": 0.819
+    },
+    {
+      "a_id": 1,
+      "b_id": 8,
+      "relation": "A_front_B",
+      "confidence": 0.789
+    },
+    {
+      "a_id": 6,
+      "b_id": 8,
+      "relation": "A_front_B",
+      "confidence": 0.779
+    },
+    {
+      "a_id": 5,
+      "b_id": 8,
+      "relation": "A_front_B",
+      "confidence": 0.757
+    },
+    {
+      "a_id": 8,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.687
+    },
+    {
+      "a_id": 3,
+      "b_id": 8,
+      "relation": "A_front_B",
+      "confidence": 0.44
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.405
+    },
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.379
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.349
+    },
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.34
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.318
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.532,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 1,
+      "b_id": 8,
+      "relation": "A_occludes_B",
+      "confidence": 0.515,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.46,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.456,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.49,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.467,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 8,
+      "relation": "A_occludes_B",
+      "confidence": 0.534,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

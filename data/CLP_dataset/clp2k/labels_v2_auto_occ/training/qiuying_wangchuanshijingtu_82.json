@@ -1,0 +1,138 @@
+{
+  "image_id": "qiuying_wangchuanshijingtu_82",
+  "image_path": "data/CLP_dataset/clp2k/images/training/qiuying_wangchuanshijingtu_82.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_82_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        12,
+        511,
+        511
+      ],
+      "center_xy": [
+        255.11,
+        292.82
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_82_inst_2.png",
+      "bbox_xyxy": [
+        412,
+        12,
+        511,
+        131
+      ],
+      "center_xy": [
+        476.06,
+        68.65
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_82_inst_3.png",
+      "bbox_xyxy": [
+        314,
+        35,
+        511,
+        171
+      ],
+      "center_xy": [
+        400.48,
+        119.41
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/qiuying_wangchuanshijingtu_82_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        374,
+        151,
+        511
+      ],
+      "center_xy": [
+        72.64,
+        457.2
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.291
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.468,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.492,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.482,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.581,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

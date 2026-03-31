@@ -1,0 +1,61 @@
+{
+  "image_id": "Princeton_221",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_221.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_221_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        56,
+        511,
+        511
+      ],
+      "center_xy": [
+        277.53,
+        294.1
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_221_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        396,
+        456,
+        511
+      ],
+      "center_xy": [
+        183.76,
+        471.03
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.268
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.54,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

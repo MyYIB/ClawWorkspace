@@ -1,0 +1,198 @@
+{
+  "image_id": "Princeton_151",
+  "image_path": "data/CLP_dataset/clp2k/images/training/Princeton_151.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_151_inst_1.png",
+      "bbox_xyxy": [
+        66,
+        343,
+        167,
+        410
+      ],
+      "center_xy": [
+        122.22,
+        373.53
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_151_inst_2.png",
+      "bbox_xyxy": [
+        92,
+        412,
+        115,
+        427
+      ],
+      "center_xy": [
+        103.95,
+        419.46
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_151_inst_3.png",
+      "bbox_xyxy": [
+        64,
+        430,
+        111,
+        459
+      ],
+      "center_xy": [
+        89.9,
+        443.74
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_151_inst_4.png",
+      "bbox_xyxy": [
+        2,
+        32,
+        505,
+        511
+      ],
+      "center_xy": [
+        298.37,
+        311.04
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 5,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_151_inst_5.png",
+      "bbox_xyxy": [
+        303,
+        432,
+        379,
+        475
+      ],
+      "center_xy": [
+        341.96,
+        452.73
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_151_inst_6.png",
+      "bbox_xyxy": [
+        252,
+        423,
+        302,
+        465
+      ],
+      "center_xy": [
+        278.48,
+        443.06
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/Princeton_151_inst_7.png",
+      "bbox_xyxy": [
+        0,
+        414,
+        101,
+        511
+      ],
+      "center_xy": [
+        44.47,
+        466.06
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.44
+    },
+    {
+      "a_id": 7,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.389
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.367
+    },
+    {
+      "a_id": 7,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.317
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.267
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.242
+    },
+    {
+      "a_id": 4,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 0.229
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.461,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 7,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.605,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 5,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.455,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 7,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.466,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

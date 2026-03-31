@@ -1,0 +1,96 @@
+{
+  "image_id": "fankuan_yanlanqiuxiaotu_20",
+  "image_path": "data/CLP_dataset/clp2k/images/training/fankuan_yanlanqiuxiaotu_20.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_20_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        18,
+        471,
+        397
+      ],
+      "center_xy": [
+        226.79,
+        203.4
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_20_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        323,
+        133
+      ],
+      "center_xy": [
+        108.38,
+        50.35
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_20_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        276,
+        511,
+        511
+      ],
+      "center_xy": [
+        239.83,
+        416.09
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.958
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.704
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.531,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.544,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

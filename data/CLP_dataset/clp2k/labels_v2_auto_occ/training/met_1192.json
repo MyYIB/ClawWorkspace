@@ -1,0 +1,46 @@
+{
+  "image_id": "met_1192",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_1192.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1192_inst_1.png",
+      "bbox_xyxy": [
+        224,
+        148,
+        494,
+        511
+      ],
+      "center_xy": [
+        395.24,
+        355.3
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1192_inst_2.png",
+      "bbox_xyxy": [
+        19,
+        459,
+        61,
+        511
+      ],
+      "center_xy": [
+        38.05,
+        486.94
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": []
+}

@@ -1,0 +1,226 @@
+{
+  "image_id": "wangximen_128",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wangximen_128.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_128_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        131,
+        483,
+        242
+      ],
+      "center_xy": [
+        164.58,
+        190.49
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_128_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        251,
+        511,
+        503
+      ],
+      "center_xy": [
+        248.67,
+        379.05
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_128_inst_3.png",
+      "bbox_xyxy": [
+        18,
+        48,
+        511,
+        177
+      ],
+      "center_xy": [
+        292.22,
+        123.28
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_128_inst_4.png",
+      "bbox_xyxy": [
+        75,
+        408,
+        215,
+        508
+      ],
+      "center_xy": [
+        140.64,
+        462.69
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "bridge",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_128_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        459,
+        84,
+        511
+      ],
+      "center_xy": [
+        43.43,
+        490.01
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "bridge",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_128_inst_6.png",
+      "bbox_xyxy": [
+        140,
+        460,
+        511,
+        511
+      ],
+      "center_xy": [
+        298.29,
+        495.73
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "grass",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_128_inst_7.png",
+      "bbox_xyxy": [
+        0,
+        181,
+        511,
+        324
+      ],
+      "center_xy": [
+        337.67,
+        255.53
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 6,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.949
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.893
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.873
+    },
+    {
+      "a_id": 6,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.717
+    },
+    {
+      "a_id": 2,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.63
+    },
+    {
+      "a_id": 5,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.574
+    },
+    {
+      "a_id": 4,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 0.554
+    },
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.547
+    },
+    {
+      "a_id": 7,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.319
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 7,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.571,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 2,
+      "b_id": 7,
+      "relation": "A_occludes_B",
+      "confidence": 0.541,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

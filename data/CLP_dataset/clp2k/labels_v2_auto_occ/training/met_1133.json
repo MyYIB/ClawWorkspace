@@ -1,0 +1,117 @@
+{
+  "image_id": "met_1133",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_1133.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1133_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        11,
+        450,
+        217
+      ],
+      "center_xy": [
+        235.08,
+        94.75
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1133_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        192,
+        505,
+        506
+      ],
+      "center_xy": [
+        218.65,
+        357.28
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "person",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1133_inst_3.png",
+      "bbox_xyxy": [
+        422,
+        375,
+        446,
+        431
+      ],
+      "center_xy": [
+        436.06,
+        405.46
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1133_inst_4.png",
+      "bbox_xyxy": [
+        289,
+        435,
+        511,
+        510
+      ],
+      "center_xy": [
+        403.17,
+        478.91
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.765
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.442
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.417
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.469,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

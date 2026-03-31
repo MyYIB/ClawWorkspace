@@ -1,0 +1,133 @@
+{
+  "image_id": "xiaoyuncun_qiushanxinglvtu_43",
+  "image_path": "data/CLP_dataset/clp2k/images/training/xiaoyuncun_qiushanxinglvtu_43.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xiaoyuncun_qiushanxinglvtu_43_inst_1.png",
+      "bbox_xyxy": [
+        230,
+        228,
+        360,
+        329
+      ],
+      "center_xy": [
+        305.92,
+        290.31
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xiaoyuncun_qiushanxinglvtu_43_inst_2.png",
+      "bbox_xyxy": [
+        380,
+        277,
+        462,
+        368
+      ],
+      "center_xy": [
+        423.28,
+        317.27
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xiaoyuncun_qiushanxinglvtu_43_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        451,
+        511
+      ],
+      "center_xy": [
+        168.04,
+        307.07
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xiaoyuncun_qiushanxinglvtu_43_inst_4.png",
+      "bbox_xyxy": [
+        106,
+        0,
+        511,
+        511
+      ],
+      "center_xy": [
+        355.93,
+        183.88
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.677
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.619
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 0.523
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.473,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.475,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.461,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.464,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.72,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

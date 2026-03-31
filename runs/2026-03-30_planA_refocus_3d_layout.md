@@ -139,3 +139,22 @@ python projects/SanYuan-LayoutNet/scripts/train.py \
 - `total/proj/depth` 继续稳定下降，训练链路有效。
 - `occ` 较基线首轮明显下降，但在 epoch2 后进入平台（约 0.262~0.266）。
 - 当前瓶颈仍主要在遮挡监督质量，而非权重不足本身。
+
+## Occ Boost 微调实跑 v2（labels_v2_auto_occ, w_occ=1.0, 2026-03-31）
+### 配置
+- 配置文件：`projects/SanYuan-LayoutNet/configs/planA_occ_boost_auto_occ_10e.yaml`
+- 数据：`data/CLP_dataset/clp2k/labels_v2_auto_occ`
+- 关键参数：`w_occ=1.0`，`epochs=10`，`lr=1.0e-4`
+- 日志：`runs/2026-03-31_planA_occ_boost_auto_occ_10e.log`
+
+### 结果（10 epoch）
+- epoch1: total=0.71631, proj=0.09101, depth=0.23858, occ=0.31744
+- epoch2: total=0.45528, proj=0.04526, depth=0.09806, occ=0.25434
+- epoch5: total=0.41890, proj=0.03708, depth=0.07583, occ=0.25421
+- epoch8: total=0.40808, proj=0.03354, depth=0.07193, occ=0.25511
+- epoch10: total=0.39980, proj=0.03253, depth=0.06763, occ=0.25347
+
+### 结论
+- 与上一轮 `w_occ=0.8` 相比，`occ` 从约 0.2655 进一步降到 0.2535（有改善）。
+- 但 `proj/total` 明显更高，说明单纯增大 `w_occ` 会牺牲部分几何重投影质量。
+- 下一步建议：引入验证集指标（Occlusion F1 + Reproj-mIoU）做权衡早停，而非仅看训练 loss。

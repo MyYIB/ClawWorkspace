@@ -1,0 +1,61 @@
+{
+  "image_id": "xia-gui_streams-mountains_part_1",
+  "image_path": "data/CLP_dataset/clp2k/images/training/xia-gui_streams-mountains_part_1.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xia-gui_streams-mountains_part_1_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        146,
+        511,
+        511
+      ],
+      "center_xy": [
+        167.26,
+        389.62
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/xia-gui_streams-mountains_part_1_inst_2.png",
+      "bbox_xyxy": [
+        220,
+        176,
+        467,
+        393
+      ],
+      "center_xy": [
+        329.02,
+        303.22
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.673
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.565,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

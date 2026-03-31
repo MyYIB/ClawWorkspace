@@ -1,0 +1,61 @@
+{
+  "image_id": "met_1213",
+  "image_path": "data/CLP_dataset/clp2k/images/training/met_1213.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1213_inst_1.png",
+      "bbox_xyxy": [
+        320,
+        117,
+        511,
+        292
+      ],
+      "center_xy": [
+        418.33,
+        198.47
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "rock",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/met_1213_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        504
+      ],
+      "center_xy": [
+        225.41,
+        270.27
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.824
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.502,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

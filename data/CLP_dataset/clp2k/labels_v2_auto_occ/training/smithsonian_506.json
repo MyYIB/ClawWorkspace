@@ -1,0 +1,118 @@
+{
+  "image_id": "smithsonian_506",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_506.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_506_inst_1.png",
+      "bbox_xyxy": [
+        22,
+        39,
+        490,
+        511
+      ],
+      "center_xy": [
+        292.75,
+        358.37
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_506_inst_2.png",
+      "bbox_xyxy": [
+        23,
+        455,
+        74,
+        511
+      ],
+      "center_xy": [
+        48.41,
+        484.0
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_506_inst_3.png",
+      "bbox_xyxy": [
+        246,
+        160,
+        354,
+        246
+      ],
+      "center_xy": [
+        309.83,
+        207.56
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 4,
+      "class": "building",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_506_inst_4.png",
+      "bbox_xyxy": [
+        369,
+        181,
+        422,
+        226
+      ],
+      "center_xy": [
+        397.53,
+        204.69
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 4,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.467,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 1,
+      "b_id": 4,
+      "relation": "A_occludes_B",
+      "confidence": 0.454,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

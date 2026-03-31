@@ -1,0 +1,54 @@
+{
+  "image_id": "wangximen_167",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wangximen_167.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_167_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        64,
+        511,
+        511
+      ],
+      "center_xy": [
+        250.07,
+        307.38
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wangximen_167_inst_2.png",
+      "bbox_xyxy": [
+        22,
+        331,
+        209,
+        511
+      ],
+      "center_xy": [
+        109.9,
+        427.93
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.509,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

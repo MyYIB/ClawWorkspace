@@ -1,0 +1,165 @@
+{
+  "image_id": "wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        109,
+        107
+      ],
+      "center_xy": [
+        42.4,
+        43.66
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6_inst_2.png",
+      "bbox_xyxy": [
+        175,
+        0,
+        382,
+        136
+      ],
+      "center_xy": [
+        274.11,
+        57.97
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6_inst_3.png",
+      "bbox_xyxy": [
+        97,
+        218,
+        511,
+        511
+      ],
+      "center_xy": [
+        311.7,
+        374.43
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        409,
+        118,
+        511
+      ],
+      "center_xy": [
+        56.63,
+        465.18
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_6_inst_5.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        428
+      ],
+      "center_xy": [
+        230.71,
+        174.42
+      ],
+      "san_yuan_level": "far"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 3,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.957
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.581
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 0.537
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.471,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 5,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.501,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_occludes_B",
+      "confidence": 0.587,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

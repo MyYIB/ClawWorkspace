@@ -1,0 +1,30 @@
+{
+  "image_id": "wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_5",
+  "image_path": "data/CLP_dataset/clp2k/images/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_5.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/wang-jian_white-clouds-on-the-xiao-and-xiang-rivers_5_inst_1.png",
+      "bbox_xyxy": [
+        21,
+        219,
+        374,
+        511
+      ],
+      "center_xy": [
+        179.37,
+        397.32
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": []
+}

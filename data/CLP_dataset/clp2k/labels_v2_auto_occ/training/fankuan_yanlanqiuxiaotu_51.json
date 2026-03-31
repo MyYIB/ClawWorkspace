@@ -1,0 +1,199 @@
+{
+  "image_id": "fankuan_yanlanqiuxiaotu_51",
+  "image_path": "data/CLP_dataset/clp2k/images/training/fankuan_yanlanqiuxiaotu_51.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_51_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        35,
+        511,
+        511
+      ],
+      "center_xy": [
+        246.34,
+        271.4
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_51_inst_2.png",
+      "bbox_xyxy": [
+        406,
+        474,
+        463,
+        511
+      ],
+      "center_xy": [
+        430.84,
+        496.34
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_51_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        196
+      ],
+      "center_xy": [
+        276.33,
+        61.29
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_51_inst_4.png",
+      "bbox_xyxy": [
+        0,
+        323,
+        183,
+        511
+      ],
+      "center_xy": [
+        64.23,
+        439.94
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_51_inst_5.png",
+      "bbox_xyxy": [
+        469,
+        414,
+        511,
+        511
+      ],
+      "center_xy": [
+        493.83,
+        471.46
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 6,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_51_inst_6.png",
+      "bbox_xyxy": [
+        237,
+        457,
+        408,
+        511
+      ],
+      "center_xy": [
+        324.56,
+        490.31
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 7,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/fankuan_yanlanqiuxiaotu_51_inst_7.png",
+      "bbox_xyxy": [
+        373,
+        330,
+        511,
+        502
+      ],
+      "center_xy": [
+        447.86,
+        416.16
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 6,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 5,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.576,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.507,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 5,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.457,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 6,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.465,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 7,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.489,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

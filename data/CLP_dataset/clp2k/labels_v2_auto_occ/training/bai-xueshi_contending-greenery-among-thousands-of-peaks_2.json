@@ -1,0 +1,283 @@
+{
+  "image_id": "bai-xueshi_contending-greenery-among-thousands-of-peaks_2",
+  "image_path": "data/CLP_dataset/clp2k/images/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2_inst_1.png",
+      "bbox_xyxy": [
+        349,
+        349,
+        511,
+        457
+      ],
+      "center_xy": [
+        444.08,
+        399.19
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        367,
+        323,
+        511
+      ],
+      "center_xy": [
+        145.38,
+        447.25
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        511,
+        403
+      ],
+      "center_xy": [
+        242.57,
+        188.14
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 4,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2_inst_4.png",
+      "bbox_xyxy": [
+        241,
+        320,
+        511,
+        511
+      ],
+      "center_xy": [
+        365.35,
+        438.74
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 5,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2_inst_5.png",
+      "bbox_xyxy": [
+        208,
+        0,
+        233,
+        38
+      ],
+      "center_xy": [
+        220.13,
+        13.72
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 6,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2_inst_6.png",
+      "bbox_xyxy": [
+        467,
+        0,
+        511,
+        150
+      ],
+      "center_xy": [
+        493.98,
+        54.17
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 7,
+      "class": "boat",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_2_inst_7.png",
+      "bbox_xyxy": [
+        91,
+        438,
+        216,
+        463
+      ],
+      "center_xy": [
+        146.49,
+        451.27
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 2,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 7,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 4,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 7,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 5,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 3,
+      "b_id": 6,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1
+    },
+    {
+      "a_id": 7,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1
+    },
+    {
+      "a_id": 2,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 0.327
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_front_B",
+      "confidence": 1
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1
+    },
+    {
+      "a_id": 4,
+      "b_id": 7,
+      "relation": "A_front_B",
+      "confidence": 1
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [
+      [
+        2,
+        391
+      ],
+      [
+        501,
+        349
+      ]
+    ],
+    "mid_far_boundary": [
+      [
+        1,
+        508
+      ],
+      [
+        506,
+        511
+      ]
+    ]
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.466,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 4,
+      "b_id": 1,
+      "relation": "A_occludes_B",
+      "confidence": 0.586,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.469,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 4,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.488,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    },
+    {
+      "a_id": 3,
+      "b_id": 6,
+      "relation": "A_occludes_B",
+      "confidence": 0.463,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

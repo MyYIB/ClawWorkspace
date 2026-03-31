@@ -1,0 +1,61 @@
+{
+  "image_id": "shen-zhou_fuchun-mountains_14",
+  "image_path": "data/CLP_dataset/clp2k/images/training/shen-zhou_fuchun-mountains_14.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_14_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        332,
+        511,
+        510
+      ],
+      "center_xy": [
+        238.22,
+        429.54
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/shen-zhou_fuchun-mountains_14_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        127,
+        511,
+        393
+      ],
+      "center_xy": [
+        269.48,
+        245.6
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.606
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.514,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

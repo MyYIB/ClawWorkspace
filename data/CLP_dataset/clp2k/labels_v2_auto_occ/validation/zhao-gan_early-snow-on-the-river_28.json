@@ -1,0 +1,83 @@
+{
+  "image_id": "zhao-gan_early-snow-on-the-river_28",
+  "image_path": "data/CLP_dataset/clp2k/images/validation/zhao-gan_early-snow-on-the-river_28.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/zhao-gan_early-snow-on-the-river_28_inst_1.png",
+      "bbox_xyxy": [
+        65,
+        0,
+        511,
+        511
+      ],
+      "center_xy": [
+        303.55,
+        262.62
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 2,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/zhao-gan_early-snow-on-the-river_28_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        138,
+        44,
+        511
+      ],
+      "center_xy": [
+        17.65,
+        323.96
+      ],
+      "san_yuan_level": "mid"
+    },
+    {
+      "id": 3,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/validation/zhao-gan_early-snow-on-the-river_28_inst_3.png",
+      "bbox_xyxy": [
+        0,
+        0,
+        397,
+        511
+      ],
+      "center_xy": [
+        135.8,
+        213.23
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.344
+    },
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.238
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_occludes_B",
+      "confidence": 0.71,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

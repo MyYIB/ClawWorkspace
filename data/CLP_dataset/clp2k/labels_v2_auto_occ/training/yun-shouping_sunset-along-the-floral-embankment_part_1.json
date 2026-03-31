@@ -1,0 +1,89 @@
+{
+  "image_id": "yun-shouping_sunset-along-the-floral-embankment_part_1",
+  "image_path": "data/CLP_dataset/clp2k/images/training/yun-shouping_sunset-along-the-floral-embankment_part_1.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "river",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/yun-shouping_sunset-along-the-floral-embankment_part_1_inst_1.png",
+      "bbox_xyxy": [
+        0,
+        189,
+        511,
+        511
+      ],
+      "center_xy": [
+        290.39,
+        382.68
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/yun-shouping_sunset-along-the-floral-embankment_part_1_inst_2.png",
+      "bbox_xyxy": [
+        0,
+        31,
+        462,
+        350
+      ],
+      "center_xy": [
+        188.13,
+        202.92
+      ],
+      "san_yuan_level": "far"
+    },
+    {
+      "id": 3,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/yun-shouping_sunset-along-the-floral-embankment_part_1_inst_3.png",
+      "bbox_xyxy": [
+        477,
+        242,
+        511,
+        284
+      ],
+      "center_xy": [
+        495.6,
+        263.07
+      ],
+      "san_yuan_level": "mid"
+    }
+  ],
+  "depth_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 1.0
+    },
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_front_B",
+      "confidence": 0.739
+    },
+    {
+      "a_id": 2,
+      "b_id": 3,
+      "relation": "A_front_B",
+      "confidence": 0.344
+    }
+  ],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": [
+    {
+      "a_id": 1,
+      "b_id": 2,
+      "relation": "A_occludes_B",
+      "confidence": 0.575,
+      "source": "heuristic(depth_pairs+mask/bbox proximity)"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "image_id": "smithsonian_160",
+  "image_path": "data/CLP_dataset/clp2k/images/training/smithsonian_160.jpg",
+  "width": 512,
+  "height": 512,
+  "instances": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_160_inst_1.png",
+      "bbox_xyxy": [
+        130,
+        267,
+        489,
+        511
+      ],
+      "center_xy": [
+        334.55,
+        404.49
+      ],
+      "san_yuan_level": "near"
+    },
+    {
+      "id": 2,
+      "class": "trees",
+      "mask_path": "data/CLP_dataset/clp2k/instance_masks_auto/training/smithsonian_160_inst_2.png",
+      "bbox_xyxy": [
+        72,
+        471,
+        204,
+        511
+      ],
+      "center_xy": [
+        142.92,
+        496.23
+      ],
+      "san_yuan_level": "near"
+    }
+  ],
+  "depth_pairs": [],
+  "anchors": {
+    "near_mid_boundary": [],
+    "mid_far_boundary": []
+  },
+  "occlusion_pairs": []
+}
