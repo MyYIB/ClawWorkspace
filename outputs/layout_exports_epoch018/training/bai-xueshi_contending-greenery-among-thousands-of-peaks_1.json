@@ -1,0 +1,63 @@
+{
+  "image_id": "bai-xueshi_contending-greenery-among-thousands-of-peaks_1",
+  "image_path": "data/CLP_dataset/clp2k/images/training/bai-xueshi_contending-greenery-among-thousands-of-peaks_1.jpg",
+  "ckpt": "outputs/planA_v2_full_auto/epoch_018.pt",
+  "coordinate_note": {
+    "scene_position_xyz": "x:[-5,5], y:[0,5], z:[0,10], z越大越远",
+    "scene_scale_xyz": "相对尺度，可按你的3D资产进一步归一化"
+  },
+  "objects": [
+    {
+      "id": 1,
+      "class": "mountain",
+      "pred_center_01": [
+        0.46759024262428284,
+        0.7139012217521667,
+        0.6649741530418396
+      ],
+      "pred_size_01": [
+        0.9970136880874634,
+        0.7512829899787903,
+        0.875788688659668
+      ],
+      "scene_position_xyz": [
+        -0.32409757375717163,
+        1.4304938912391663,
+        6.649741530418396
+      ],
+      "scene_scale_xyz": [
+        3.9880547523498535,
+        3.005131959915161,
+        3.503154754638672
+      ],
+      "depth_order_score": 0.04924982786178589,
+      "depth_rank_far_to_near": 2
+    },
+    {
+      "id": 2,
+      "class": "clouds",
+      "pred_center_01": [
+        0.5338451266288757,
+        0.4160260260105133,
+        0.6247130632400513
+      ],
+      "pred_size_01": [
+        0.9959866404533386,
+        0.7394729256629944,
+        0.8662606477737427
+      ],
+      "scene_position_xyz": [
+        0.3384512662887573,
+        2.9198698699474335,
+        6.247130632400513
+      ],
+      "scene_scale_xyz": [
+        3.9839465618133545,
+        2.9578917026519775,
+        3.4650425910949707
+      ],
+      "depth_order_score": 0.5903152227401733,
+      "depth_rank_far_to_near": 1
+    }
+  ]
+}

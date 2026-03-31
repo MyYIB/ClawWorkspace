@@ -1,0 +1,107 @@
+[
+  {
+    "ckpt": "outputs\\planA_v2_smoke\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_1.json",
+    "num_objects": 2,
+    "pred_z_mean": 0.41955721378326416,
+    "pred_z_std": 7.115304470062256e-05
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_2.json",
+    "num_objects": 7,
+    "pred_z_mean": 0.41964516043663025,
+    "pred_z_std": 0.00024471787037327886
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_3.json",
+    "num_objects": 4,
+    "pred_z_mean": 0.4193480908870697,
+    "pred_z_std": 0.00011336730676703155
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_5.json",
+    "num_objects": 16,
+    "pred_z_mean": 0.4202740490436554,
+    "pred_z_std": 0.00014936187653802335
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_6.json",
+    "num_objects": 24,
+    "pred_z_mean": 0.4195762574672699,
+    "pred_z_std": 0.00018837052630260587
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke_auto\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_1.json",
+    "num_objects": 2,
+    "pred_z_mean": 0.4955441653728485,
+    "pred_z_std": 0.0011582374572753906
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke_auto\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_2.json",
+    "num_objects": 7,
+    "pred_z_mean": 0.5055195093154907,
+    "pred_z_std": 0.007534725591540337
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke_auto\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_3.json",
+    "num_objects": 4,
+    "pred_z_mean": 0.4889625608921051,
+    "pred_z_std": 0.02487167716026306
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke_auto\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_5.json",
+    "num_objects": 16,
+    "pred_z_mean": 0.5247293710708618,
+    "pred_z_std": 0.018054768443107605
+  },
+  {
+    "ckpt": "outputs\\planA_v2_smoke_auto\\epoch_003.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_6.json",
+    "num_objects": 24,
+    "pred_z_mean": 0.5017395615577698,
+    "pred_z_std": 0.02008894458413124
+  },
+  {
+    "ckpt": "outputs\\planA_v2_full_auto\\epoch_018.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_1.json",
+    "num_objects": 2,
+    "pred_z_mean": 0.6488914489746094,
+    "pred_z_std": 0.02233022451400757
+  },
+  {
+    "ckpt": "outputs\\planA_v2_full_auto\\epoch_018.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_2.json",
+    "num_objects": 7,
+    "pred_z_mean": 0.6141638159751892,
+    "pred_z_std": 0.0964396744966507
+  },
+  {
+    "ckpt": "outputs\\planA_v2_full_auto\\epoch_018.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_3.json",
+    "num_objects": 4,
+    "pred_z_mean": 0.5304739475250244,
+    "pred_z_std": 0.04638545960187912
+  },
+  {
+    "ckpt": "outputs\\planA_v2_full_auto\\epoch_018.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_5.json",
+    "num_objects": 16,
+    "pred_z_mean": 0.6160560846328735,
+    "pred_z_std": 0.13169844448566437
+  },
+  {
+    "ckpt": "outputs\\planA_v2_full_auto\\epoch_018.pt",
+    "sample": "data\\CLP_dataset\\clp2k\\labels_v2_auto\\training\\bai-xueshi_contending-greenery-among-thousands-of-peaks_6.json",
+    "num_objects": 24,
+    "pred_z_mean": 0.5290048718452454,
+    "pred_z_std": 0.09518114477396011
+  }
+]

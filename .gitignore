@@ -25,3 +25,10 @@
 # （可选）如果文件夹内有不想推送的子文件/子文件夹，可单独排除
 # 比如：放行 folder1，但排除 folder1/temp 子文件夹
 # folder1/temp/
+
+# 常见中间文件
+**/__pycache__/
+**/*.pyc
+
+# 训练大权重默认不入库（可按需手动 add -f）
+outputs/**/epoch_*.pt

@@ -1,0 +1,37 @@
+project_name: SanYuan-LayoutNet
+seed: 42
+
+data:
+  image_root: data/CLP_dataset/clp2k/images
+  label_root: data/CLP_dataset/clp2k/labels_v2_auto_occ
+  image_size: [512, 512]
+  num_workers: 0
+  max_objects: 24
+  min_objects: 1
+
+model:
+  name: Object3DLayoutNet
+  d_model: 128
+  num_layers: 2
+  num_heads: 4
+  obj_feat_dim: 16
+  dropout: 0.1
+
+train:
+  batch_size: 2
+  epochs: 5
+  lr: 0.00015
+  weight_decay: 0.01
+  grad_clip: 1.0
+  log_interval: 20
+
+loss:
+  w_proj: 1.0
+  w_depth_rank: 0.7
+  w_occ: 0.8
+  w_rel: 0.3
+  w_sanyuan_prior: 0.1
+
+output:
+  dir: outputs/planA_v2_occ_boost_auto_occ_5e
+  save_every: 100
